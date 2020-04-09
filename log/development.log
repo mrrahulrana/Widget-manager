@@ -1,0 +1,427 @@
+Started GET "/" for ::1 at 2020-04-08 19:53:23 +0100
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.7) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.7) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (140.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (125.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200408184850)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar, "lastname" varchar, "password" varchar, "password_confirmed" varchar, "email" varchar, "imageurl" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200408184850"]]
+  [1m[35m (78.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-04-09 08:17:30.838384"], ["updated_at", "2020-04-09 08:17:30.838384"]]
+  [1m[35m (109.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-04-09 09:19:06 +0100
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 7258ms (Views: 7042.5ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-09 09:20:50 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (455.5ms)
+  Rendered users/new.html.erb within layouts/application (547.5ms)
+Completed 200 OK in 843ms (Views: 772.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-04-09 09:20:59 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 226ms (Views: 196.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-09 10:00:06 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (20.0ms)
+  Rendered users/new.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 316ms (Views: 257.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-04-09 10:00:08 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 227ms (Views: 185.4ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-09 10:00:11 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (12.0ms)
+  Rendered users/new.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 240ms (Views: 209.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-09 11:50:16 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (136.0ms)
+  Rendered users/new.html.erb within layouts/application (227.9ms)
+Completed 200 OK in 1959ms (Views: 1866.8ms | ActiveRecord: 8.0ms)
+
+
+Started POST "/users" for ::1 at 2020-04-09 11:52:43 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UmnASok7uMOXpuIg488uq7kZPobjSEdApQo/dITFSWZtN3uRFs0uKzRD+Qv5yUWBoZD3R9Gdj7sms5N0SR2eVA==", "user"=>{"firstname"=>"Rahul", "lastname"=>"Rana", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>""}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (16.0ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "password", "password_confirmed", "email", "imageurl", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["firstname", "Rahul"], ["lastname", "Rana"], ["password", "password"], ["password_confirmed", "password"], ["email", "mr.rahulrana@gmail.com"], ["imageurl", ""], ["created_at", "2020-04-09 10:52:43.521199"], ["updated_at", "2020-04-09 10:52:43.521199"]]
+  [1m[35m (158.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 199ms (ActiveRecord: 174.6ms)
+
+
+Started GET "/users/1" for ::1 at 2020-04-09 11:52:43 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 268ms (Views: 159.1ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/users" for ::1 at 2020-04-09 11:52:55 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 261ms (Views: 199.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/1" for ::1 at 2020-04-09 12:11:56 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 290ms (Views: 252.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-04-09 12:11:58 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 246ms (Views: 178.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-09 12:12:03 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (8.0ms)
+  Rendered users/new.html.erb within layouts/application (52.0ms)
+Completed 200 OK in 278ms (Views: 238.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-04-09 12:12:09 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 224ms (Views: 185.6ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 17:24:51 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 2302ms (Views: 2242.2ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/" for ::1 at 2020-04-09 17:25:19 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 404ms (Views: 319.1ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-09 17:25:25 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (169.0ms)
+  Rendered users/new.html.erb within layouts/application (200.3ms)
+Completed 200 OK in 492ms (Views: 455.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2020-04-09 17:25:36 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yoiYW7ZEVhrspOFl0e6EGueV/I00+tlJkSHx/94xOwNKhVzbl6E+yXMgWATdAhxcOCBuJ6M5Jmhd5lsX369jXg==", "user"=>{"firstname"=>"Rahul", "lastname"=>"Rana", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>""}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (too few arguments):
+  
+app/controllers/users_controller.rb:30:in `format'
+app/controllers/users_controller.rb:30:in `create'
+Started POST "/users" for ::1 at 2020-04-09 17:31:23 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ktzMoURaiK4AY2cWV+SVpfTasYylJmZHuljZkOEor0qtgnd626weRqOGfD1N4v6P7FN4TZfzrrw54XWQLPB4eA==", "user"=>{"firstname"=>"Rahul", "lastname"=>"Rana", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>""}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 539ms
+
+
+  
+RuntimeError (Invalid response {"code":3,"message":"There was an error logging in. Please try again.","data":null} received.):
+  
+app/controllers/users_controller.rb:52:in `block in create'
+app/controllers/users_controller.rb:45:in `create'
+Started GET "/users" for ::1 at 2020-04-09 18:17:29 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (935.8ms)
+Completed 200 OK in 2550ms (Views: 1891.6ms | ActiveRecord: 48.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-09 18:17:37 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (713.7ms)
+  Rendered users/new.html.erb within layouts/application (861.7ms)
+Completed 200 OK in 1526ms (Views: 1398.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2020-04-09 18:17:47 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DPUit6XbERF3qe5DxfCDl5m2b5nDs+xR8MmlAQRrid6M+OY3hD55wugtVyLJHBvRRgP9M1RwE3A8Dg/pBfXRgw==", "user"=>{"firstname"=>"Rahul", "lastname"=>"Rana", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>""}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 3217ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `parse_json' for #<UsersController:0x70e0510>
+Did you mean?  as_json):
+  
+app/controllers/users_controller.rb:39:in `block in create'
+app/controllers/users_controller.rb:34:in `create'
+Started POST "/users" for ::1 at 2020-04-09 18:23:22 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ug/FFNLeSiRRUsvi5l75Jx++yKj51qWiEc1NJLgsUDZtUX7PTSjczPK30Mn8WJINBzcBacsDbVmSdOEkdfSHBA==", "user"=>{"firstname"=>"Rahul", "lastname"=>"Rana", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>""}, "commit"=>"Create User"}
+No template found for UsersController#create, rendering head :no_content
+Completed 204 No Content in 3861ms
+
+
+Started GET "/users/new" for ::1 at 2020-04-09 18:36:56 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (31.9ms)
+  Rendered users/new.html.erb within layouts/application (116.0ms)
+Completed 200 OK in 818ms (Views: 603.8ms | ActiveRecord: 12.0ms)
+
+
+Started POST "/users" for ::1 at 2020-04-09 18:37:07 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kq6PlUM8JXs3ZjlZUtRGrK0gXZPqZ9X0TJOlQkC3zt4V8DRO3Mqzk5SDInJI0i2GtamUUtiyHQ/PKglCjW8Z7A==", "user"=>{"firstname"=>"Rahul", "lastname"=>"Rana", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>""}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 388ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (too few arguments):
+  
+app/controllers/users_controller.rb:40:in `format'
+app/controllers/users_controller.rb:40:in `block in create'
+app/controllers/users_controller.rb:34:in `create'
+Started GET "/users/new" for ::1 at 2020-04-09 19:26:56 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (270.3ms)
+  Rendered users/new.html.erb within layouts/application (406.3ms)
+Completed 200 OK in 2777ms (Views: 1821.1ms | ActiveRecord: 138.7ms)
+
+
+Started POST "/users" for ::1 at 2020-04-09 19:27:12 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uZv5j+9pDMht5L2vgzfzx/L9SG0FK3/22np5qaWrRY2GxUJUcJ+aIM4BpoSZMZjt6nSBrDf+tw1Zw9WpaHOSvw==", "user"=>{"firstname"=>"Rahul", "lastname"=>"Rana", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>""}, "commit"=>"Create User"}
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 727ms (Views: 296.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2020-04-09 19:30:13 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uZv5j+9pDMht5L2vgzfzx/L9SG0FK3/22np5qaWrRY2GxUJUcJ+aIM4BpoSZMZjt6nSBrDf+tw1Zw9WpaHOSvw==", "user"=>{"firstname"=>"Rahul", "lastname"=>"Rana", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>""}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 535ms
+
+
+  
+ArgumentError (too few arguments):
+  
+app/controllers/users_controller.rb:40:in `format'
+app/controllers/users_controller.rb:40:in `block in create'
+app/controllers/users_controller.rb:34:in `create'
+Started POST "/users" for ::1 at 2020-04-09 19:30:30 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uZv5j+9pDMht5L2vgzfzx/L9SG0FK3/22np5qaWrRY2GxUJUcJ+aIM4BpoSZMZjt6nSBrDf+tw1Zw9WpaHOSvw==", "user"=>{"firstname"=>"Rahul", "lastname"=>"Rana", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>""}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 6226ms
+
+
+  
+ArgumentError (too few arguments):
+  
+app/controllers/users_controller.rb:40:in `format'
+app/controllers/users_controller.rb:40:in `block in create'
+app/controllers/users_controller.rb:34:in `create'
+Started POST "/users" for ::1 at 2020-04-09 19:33:14 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uZv5j+9pDMht5L2vgzfzx/L9SG0FK3/22np5qaWrRY2GxUJUcJ+aIM4BpoSZMZjt6nSBrDf+tw1Zw9WpaHOSvw==", "user"=>{"firstname"=>"Rahul", "lastname"=>"Rana", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>""}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 371ms (Views: 115.2ms)
+
+
+Started POST "/users" for ::1 at 2020-04-09 19:36:25 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uZv5j+9pDMht5L2vgzfzx/L9SG0FK3/22np5qaWrRY2GxUJUcJ+aIM4BpoSZMZjt6nSBrDf+tw1Zw9WpaHOSvw==", "user"=>{"firstname"=>"Rahul", "lastname"=>"Rana", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>""}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 327ms (Views: 2.9ms)
+
+
+Started POST "/users" for ::1 at 2020-04-09 19:37:25 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uZv5j+9pDMht5L2vgzfzx/L9SG0FK3/22np5qaWrRY2GxUJUcJ+aIM4BpoSZMZjt6nSBrDf+tw1Zw9WpaHOSvw==", "user"=>{"firstname"=>"Rahul", "lastname"=>"Rana", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>""}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 263ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/users_controller.rb:41:in `block in create'
+app/controllers/users_controller.rb:34:in `create'
+Started POST "/users" for ::1 at 2020-04-09 19:38:19 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uZv5j+9pDMht5L2vgzfzx/L9SG0FK3/22np5qaWrRY2GxUJUcJ+aIM4BpoSZMZjt6nSBrDf+tw1Zw9WpaHOSvw==", "user"=>{"firstname"=>"Rahul", "lastname"=>"Rana", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>""}, "commit"=>"Create User"}
+Completed 500 Internal Server Error in 167ms
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/users_controller.rb:41:in `block in create'
+app/controllers/users_controller.rb:34:in `create'
+Started POST "/users" for ::1 at 2020-04-09 19:48:14 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uZv5j+9pDMht5L2vgzfzx/L9SG0FK3/22np5qaWrRY2GxUJUcJ+aIM4BpoSZMZjt6nSBrDf+tw1Zw9WpaHOSvw==", "user"=>{"firstname"=>"Rahul", "lastname"=>"Rana", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>""}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 353ms (Views: 4.2ms)
+
+
+Started POST "/users" for ::1 at 2020-04-09 19:49:26 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uZv5j+9pDMht5L2vgzfzx/L9SG0FK3/22np5qaWrRY2GxUJUcJ+aIM4BpoSZMZjt6nSBrDf+tw1Zw9WpaHOSvw==", "user"=>{"firstname"=>"Rahul", "lastname"=>"Rana", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>""}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 237ms (Views: 2.3ms)
+
+
+Started GET "/users" for ::1 at 2020-04-09 20:15:01 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1927.1ms)
+Completed 200 OK in 8905ms (Views: 6705.7ms | ActiveRecord: 139.9ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-09 20:15:37 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (470.9ms)
+  Rendered users/new.html.erb within layouts/application (3031.4ms)
+Completed 200 OK in 9263ms (Views: 8496.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2020-04-09 20:16:01 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JzAoLQvJ1pvR7bpJfrz19XRzuRJVBdcgdc6EX9VhkXmnPeytKiy+SE5pAyhyUG2zq8YruMLGKAG5CS631P/JJA==", "user"=>{"firstname"=>"", "lastname"=>"", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"", "imageurl"=>""}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1348ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-04-09 20:21:46 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (30.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (601.1ms)
+Completed 200 OK in 3421ms (Views: 3122.8ms | ActiveRecord: 30.1ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-09 20:28:22 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (236.9ms)
+  Rendered users/new.html.erb within layouts/application (1057.6ms)
+Completed 200 OK in 5120ms (Views: 4501.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2020-04-09 20:28:33 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vsHmsiBDH3xcCxHvVJcYV6dEDw5TL5PINbHdtPzHUAA+zCIyAaZ3r8OPqI5Ye4ARePGdpMTsbOn5dndc/VkIXQ==", "user"=>{"firstname"=>"", "lastname"=>"", "password"=>"[FILTERED]", "password_confirmed"=>"[FILTERED]", "email"=>"", "imageurl"=>""}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 935ms (Views: 149.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2020-04-09 20:31:03 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (11.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 2199ms (Views: 1785.1ms | ActiveRecord: 11.0ms)
+
+
