@@ -38,7 +38,7 @@ class UsersController < ApplicationController
       when 200
         [ :success, JSON.parse(response) ]
         json=JSON.parse(response)
-        render plain: json["data"]["user"]["name"]
+        render plain: 'Name: ' json["data"]["user"]["name"]
       else
         fail "Invalid response #{response.to_str} received."
       end
