@@ -1,0 +1,11 @@
+<h1>Editing Widget</h1>
+
+<%= form_tag widget_path, :method => :put do %>
+  
+   Name <%=text_field_tag :name, @widget.name%><br />
+   Description <%=text_field_tag :description, @widget.description%><br/><br/>
+   <%=submit_tag "update"%>
+<%end%>
+
+<%= link_to 'Show', @widget %> |
+<%= link_to 'Back', widgets_path %>

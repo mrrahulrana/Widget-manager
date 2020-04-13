@@ -1,0 +1,42 @@
+// Place all the styles related to the widgets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .widget-container {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+     grid-gap: 16px;
+  }
+  
+  .widget {
+    transition: box-shadow .3s;
+    border: 1px solid #d3d3d3;
+    border-radius: .25rem;
+    width: 300px;
+    padding: 8px;
+    margin: 8px;
+    
+  }
+  .widget:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  .description {
+    padding: "12px"
+  }
+  
+  button {
+    background-color: transparent;
+    border: 1px solid #2196F3;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: .25rem;
+  }
+  

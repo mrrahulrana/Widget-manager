@@ -1,0 +1,41 @@
+<!--<p id="notice"><%= notice %></p>
+<h1>Widgets</h1>-->
+<%= stylesheet_link_tag "application" %>
+<div class="header">
+  <span class="header-text">Widgets</span>
+  <div class="header-right">
+    <a class="" href="#home">Logged In User</a>
+    <a href="#contact">Log Out</a>
+    <a href="#about">Change Password</a>
+  </div>
+</div>
+
+<div style="padding:16px">
+
+  <div style="">
+  
+   <div class="search-container">
+   <%= form_tag search_path, :method => :post, class: "widgetform" do %>
+      <%= text_field_tag :searchkey %>
+      <button type="submit" value="search">Go</button>
+      
+      <span style="float: right;"><button><%= link_to 'Create Widget', new_widget_path %></button></span>
+      <% end %>
+  </div>
+
+ 
+</div>
+ 
+
+</div>
+<div class="widget-container">
+<% @widgetlist.widgets.each do |l| %>
+  <%= render partial: 'widgetitem', locals: {widget: l} %>
+
+<% end %>
+</div>
+
+
+
+
+

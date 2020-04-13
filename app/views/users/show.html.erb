@@ -11,16 +11,6 @@
 </p>
 
 <p>
-  <strong>Password:</strong>
-  <%= @user.password %>
-</p>
-
-<p>
-  <strong>Password confirmed:</strong>
-  <%= @user.password_confirmed %>
-</p>
-
-<p>
   <strong>Email:</strong>
   <%= @user.email %>
 </p>
@@ -30,5 +20,5 @@
   <%= @user.imageurl %>
 </p>
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Edit', edit_user_path(@user.id) %> |
 <%= link_to 'Back', users_path %>

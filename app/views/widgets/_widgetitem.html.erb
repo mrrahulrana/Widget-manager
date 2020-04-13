@@ -1,0 +1,21 @@
+
+  <div class="widget">
+    <div class="">
+    	<span><label><b><%= widget.kind %></b></label></span>
+        <span style="float: right;">
+        
+        
+    	  <button><%= link_to 'Edit', edit_widget_path(widget.id) %></button>
+        <button><%= link_to 'Delete', widget, method: :delete, data: { confirm: 'Are you sure?' } %></button>
+        </span>
+    </div>
+    <div class="description">
+      <h4><%= widget.name %></h4>
+      <p><%= widget.description %> </p> 
+      <p>Created by <a href="#"><%= link_to widget.username, user_path(widget.userid) %></a></p>
+    </div>
+  </div>
+
+ 
+
+

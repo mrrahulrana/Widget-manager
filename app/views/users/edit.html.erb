@@ -1,6 +1,13 @@
 <h1>Editing User</h1>
 
-<%= render 'form', user: @user %>
+<%= form_tag user_path, :method => :put do %>
+  
+   First name <%=text_field_tag :firstname, @user.firstname%><br />
+   Last name <%=text_field_tag :lastname, @user.lastname%><br/><br/>
+   Email <%=text_field_tag :email, @user.email%><br />
+   Image Url <%=text_field_tag :imageurl, @user.imageurl%><br />
+   <%=submit_tag "update"%>
+<%end%>
 
 <%= link_to 'Show', @user %> |
 <%= link_to 'Back', users_path %>
