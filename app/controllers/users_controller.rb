@@ -14,13 +14,31 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
-   
+    response = RestClient::Request.new({
+      method: :get,
+      url: ENV['API_URL'] + '/users/' + params[:id],
+      headers: { Authorization: ENV['AUTH2_TOKEN']}
+    }).execute do |response, request, result|
+      case response.code
+      when 400
+        [ :error, JSON.parse(response) ]
+      when 200
+        [ :success, JSON.parse(response) ]
+        json=JSON.parse(response)
+        user= User.new
+        user.id=json["data"]["user"]["id"]
+        user.firstname=json["data"]["user"]["first_name"]
+        user.lastname=json["data"]["user"]["last_name"]
+        user.email=json["data"]["user"]["email"]
+        @user= user
+      else
+        fail "Invalid response #{response.to_str} received."
+      end
+    end
   end
 
+# Create user
   def create
-render plain: 'in cre'
-  end
-  def create1
     request_body_Data= '{
       "client_id" : "'+ENV['CLIENT_ID']+'",
       "client_secret" : "'+ENV['CLIENT_SECRET']+'",
@@ -74,6 +92,7 @@ render plain: 'in cre'
   def edit
   end
 
+
   def update
     request_body_Data= '{ "user":
     {
@@ -115,21 +134,11 @@ render plain: 'in cre'
     end
   end
 
-  # POST /users
-  # POST /users.json
-  def edit
-    
-  end
 
   # DELETE /users/1
   # DELETE /users/1.json
   def destroy
-    render plain: 'in destroy'
-    @user.destroy
-    respond_to do |format|
-      format.html { redirect_to users_url, notice: 'User was successfully destroyed.' }
-      format.json { head :no_content }
-    end
+    
   end
 
   private

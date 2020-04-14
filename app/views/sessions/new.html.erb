@@ -1,16 +1,14 @@
 
 <%= stylesheet_link_tag "application" %>
 <div class="login-container">
- <%= form_tag '/login' do %>
+ <%= form_tag login_path do %>
 
   <div class="container" style="height:410px;">
   	<h1>Sign In</h1>
     <label for="uname"><b>Username</b></label>
-    <!--<input type="text" placeholder="Enter Username" name="uname" required>-->
     <%= text_field_tag :username %>
 
     <label for="psw"><b>Password</b></label>
-    <!--<input type="password" placeholder="Enter Password" name="psw" required>-->
     <%= password_field_tag :password%>
 
         
@@ -21,8 +19,8 @@
     </label>
   
   <div class="container" style="background-color:#f1f1f1; height:82px;">
-    <button type="button" class="loginPageBtn cancelbtn"><%= link_to 'Back', welcome_path %></button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+    <button type="button" class="loginPageBtn signupbtn"><b><%= link_to 'Sign Up', new_user_path %></b></button>
+    <span class="psw">Forgot <%= link_to 'Password?', sessions_path %></span>
   </div>
  
 </div>

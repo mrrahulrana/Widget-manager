@@ -1,5 +1,10 @@
-<p id="notice"><%= notice %></p>
+<%= stylesheet_link_tag "application" %>
 
+<div class="register-container">
+<form>
+<h1>User Details</h1>
+<p id="notice"><%= notice %></p>
+ <div class="container">
 <p>
   <strong>Firstname:</strong>
   <%= @user.firstname %>
@@ -19,6 +24,11 @@
   <strong>Imageurl:</strong>
   <%= @user.imageurl %>
 </p>
-
-<%= link_to 'Edit', edit_user_path(@user.id) %> |
-<%= link_to 'Back', users_path %>
+</div>
+<div class="clearfix">
+      <button type="button" class="registerPageBtn cancelbtn"><%= link_to 'Cancel', widgets_path %></button>
+      
+      <button type="submit" class="registerPageBtn signupbtn"><%= link_to 'Edit', edit_user_path(@user.id) %></button>
+    </div>
+</form>
+</div>

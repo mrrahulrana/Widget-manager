@@ -1,3 +1,5 @@
+
+<div class="register-container">
 <%= form_with(model: widget, local: true) do |form| %>
   <% if widget.errors.any? %>
     <div id="error_explanation">
@@ -10,7 +12,8 @@
       </ul>
     </div>
   <% end %>
-
+ <div class="container">
+    <h1>New Widget</h1>
   <div class="field">
     <%= form.label :name %>
     <%= form.text_field :name, id: :widget_name %>
@@ -26,9 +29,12 @@
     <%= form.select :kind, [['Hidden','hidden'],['Visible','visible']], id: :widget_kind %>
   </div>
 
+   <div class="clearfix">
+      <button type="button" class="registerPageBtn cancelbtn"><%= link_to 'Cancel', widgets_path %></button>
+      
+      <button type="submit" class="registerPageBtn signupbtn">Create</button>
+    </div>
 
-
-  <div class="actions">
-    <%= form.submit %>
   </div>
 <% end %>
+</div>

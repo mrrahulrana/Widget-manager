@@ -17,7 +17,7 @@
    <div class="search-container">
    <%= form_tag search_path, :method => :post, class: "widgetform" do %>
       <%= text_field_tag :searchkey %>
-      <button type="submit" value="search">Go</button>
+      <button type="submit" value="search">Search</button>
       
       <span style="float: right;"><button><%= link_to 'Create Widget', new_widget_path %></button></span>
       <% end %>

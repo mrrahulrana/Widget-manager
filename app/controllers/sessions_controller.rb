@@ -4,6 +4,9 @@ class SessionsController < ApplicationController
   def new
   end
 
+  def index
+
+  end
 
   def create
     request_body_Data= '{
@@ -37,39 +40,8 @@ class SessionsController < ApplicationController
     end
   end
 
- def change
-  request_body_Data= '{ "user":
-  {
-    "current_password" : "'+params[:firstname]+'",
-    "new_password" : "'+params[:lastname]+'"
-  }}'
-  response = RestClient::Request.new({
-    method: :put,
-    url: ENV['API_URL'] + 'users/me/password',
-    payload: request_body_Data,
-    headers: { Authorization: ENV['AUTH2_TOKEN'], content_type: 'application/json'}
-  }).execute do |response, request, result|
-    case response.code
-    when 400
-      [ :error, JSON.parse(response) ]
-    when 200
-      [ :success, JSON.parse(response) ]
-    else
-      fail "Invalid response #{response.to_str} received."
-    end
-  end
-  json=JSON.parse(response)
-  respond_to do |format|
-    if json["data"]["token"]["created_at"]
-      format.html { redirect_to @user, notice: 'Password changed successfully.' }
-      format.json { render :show, status: :ok, location: @user }
-    else
-      format.html { render :edit }
-      format.json { render json: @user.errors, status: :unprocessable_entity }
-    end
-  end
-end
-
+ 
+# Reset user password
 def reset
   request_body_Data= '{ "user":
   {

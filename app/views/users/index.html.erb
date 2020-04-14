@@ -1,32 +1,34 @@
+<%= stylesheet_link_tag "application" %>
+
+<div class="register-container">
+<form>
+<h1>User Details</h1>
 <p id="notice"><%= notice %></p>
+ <div class="container">
+<p>
+  <strong>Firstname:</strong>
+  <%= @user.firstname %>
+</p>
 
-<h1>User</h1>
+<p>
+  <strong>Lastname:</strong>
+  <%= @user.lastname %>
+</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Firstname</th>
-      <th>Lastname</th>
-      <th>Email</th>
-      <th>Imageurl</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
 
-  <tbody>
-      <tr>
-        <td><%= @user.firstname %></td>
-        <td><%= @user.lastname %></td>
-        <td><%= @user.email %></td>
-        <td><%= @user.imageurl %></td>
-        <td><%= link_to 'Show', @user %></td>
-        <td><%= link_to 'Edit', edit_user_path(@user.id) %></td>
-        <td><%= link_to 'Destroy', @user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-   
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New User', new_user_path %>
+<p>
+  <strong>Imageurl:</strong>
+  <%= @user.imageurl %>
+</p>
+</div>
+<div class="clearfix">
+      <button type="button" class="registerPageBtn cancelbtn"><%= link_to 'Cancel', widgets_path %></button>
+      
+      <button type="submit" class="registerPageBtn signupbtn"><%= link_to 'Edit', edit_user_path(@user.id) %></button>
+    </div>
+</form>
+</div>

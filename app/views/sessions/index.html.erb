@@ -1,0 +1,15 @@
+<%= stylesheet_link_tag "application" %>
+<div class="change-password-container">
+   <%= form_tag reset_path, class: "resetform" do %>
+   <div class="container">
+    <h1>Reset Password</h1>
+    <p>Please fill in this form to reset the Password.</p>
+    <hr>
+   <%= label_tag :email%>
+   <%= text_field_tag :email %><br/><br/>
+   <button type="submit" class="changePasswordPageBtn submitbtn">Reset</button>
+    <button type="button" class="registerPageBtn cancelbtn"><%= link_to 'Cancel', new_session_path %></button>
+   </div>
+<%end%>
+
+</div>
