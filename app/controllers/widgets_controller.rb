@@ -148,16 +148,12 @@ class WidgetsController < ApplicationController
     end
   end
 
-  def destroy
-    render plain: 'in delete'
-  end
   # DELETE /widgets/1
   # DELETE /widgets/1.json
-  def destroy1
-    render plain: 'in delete'
-    result='Fail'
+  def delete
+    resultmessage='Fail'
     response = RestClient::Request.new({
-      method: :del,
+      method: :delete,
       url: ENV['API_URL'] + '/widgets/' + params[:id],
       headers: { Authorization: ENV['AUTH2_TOKEN'], content_type: 'application/json'}
     }).execute do |response, request, result|
@@ -167,15 +163,14 @@ class WidgetsController < ApplicationController
       when 200
         [ :success, JSON.parse(response) ]
         json=JSON.parse(response)
-        result=json["message"]
-        render plain: json
+        resultmessage=json["message"]
       else
         fail "Invalid response #{response.to_str} received."
       end
     end
-    if result == 'Success'
+    if resultmessage == 'Success'
     respond_to do |format|
-      format.html { redirect_to widgets_url, notice: 'Widget was successfully deleted.' }
+      format.html { redirect_to widgets_path, notice: 'Widget was successfully deleted.' }
       format.json { head :no_content }
     end
   end

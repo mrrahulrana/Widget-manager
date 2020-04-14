@@ -3,10 +3,8 @@
     <div class="">
     	<span><label><b><%= widget.kind %></b></label></span>
         <span style="float: right;">
-        
-        
     	  <button><%= link_to 'Edit', edit_widget_path(widget.id) %></button>
-        <button><%= link_to 'Delete', widget, method: :delete, data: { confirm: 'Are you sure?' } %></button>
+        <button><%= link_to 'Delete', delete_path(widget.id) %></button>
         </span>
     </div>
     <div class="description">

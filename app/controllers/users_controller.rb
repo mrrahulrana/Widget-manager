@@ -68,18 +68,18 @@ class UsersController < ApplicationController
         user.lastname=json["data"]["user"]["last_name"]
         user.email=json["data"]["user"]["email"]
         @user= user
+        #set user info into session
+        session[:access_token] = json["data"]["token"]["access_token"]
+        session[:username] = json["data"]["user"]["name"]
+        session[:userid] = json["data"]["user"]["id"]
       else
         fail "Invalid response #{response.to_str} received."
       end
     end
-    respond_to do |format|
-      if @user
-        format.html { redirect_to @user, notice: 'User was successfully created.' }
-        format.json { render :show, status: :ok, location: @user }
-      else
-        format.html { render :edit }
-        format.json { render json: @user.errors, status: :unprocessable_entity }
-      end
+    if session[:access_token].present?
+      format.html { redirect_to widgets_path, notice: 'User was successfully created.' }
+    else
+      redirect_to login_path
     end
   end
 
@@ -169,7 +169,6 @@ class UsersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def user_params
-      #params.require(:user).permit(:firstname, :lastname, :email)
       params.require(:user).permit(:id, :firstname, :lastname, :password, :password_confirmed, :email, :imageurl)
     end
 end

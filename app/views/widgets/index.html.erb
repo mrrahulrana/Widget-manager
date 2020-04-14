@@ -4,9 +4,9 @@
 <div class="header">
   <span class="header-text">Widgets</span>
   <div class="header-right">
-    <a class="" href="#home">Logged In User</a>
-    <a href="#contact">Log Out</a>
-    <a href="#about">Change Password</a>
+    <b>Welcome <%= session[:username] %></b>
+    <%= link_to 'Logout', logout_path %>
+    <%= link_to 'Change Password', change_path %>
   </div>
 </div>
 

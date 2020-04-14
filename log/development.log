@@ -12068,3 +12068,2813 @@ Processing by SessionsController#reset as HTML
 Completed 200 OK in 10ms (Views: 4.2ms)
 
 
+Started GET "/sessions" for ::1 at 2020-04-14 03:15:13 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (87.9ms)
+Completed 200 OK in 442ms (Views: 298.9ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 03:15:34 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (105.9ms)
+Completed 200 OK in 513ms (Views: 374.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 03:16:01 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (109.9ms)
+Completed 200 OK in 481ms (Views: 353.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 03:16:27 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (94.0ms)
+Completed 200 OK in 526ms (Views: 339.8ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 03:16:49 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (88.9ms)
+Completed 200 OK in 507ms (Views: 359.3ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 03:17:33 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (440.2ms)
+Completed 200 OK in 769ms (Views: 671.5ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 03:19:46 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (313.0ms)
+Completed 200 OK in 686ms (Views: 565.8ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 03:20:04 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (524.7ms)
+Completed 200 OK in 870ms (Views: 772.8ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 03:20:16 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (414.8ms)
+Completed 200 OK in 849ms (Views: 729.3ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 03:20:38 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (397.8ms)
+Completed 200 OK in 730ms (Views: 639.3ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 03:22:39 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (89.9ms)
+Completed 200 OK in 459ms (Views: 308.7ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 03:22:49 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (90.0ms)
+Completed 200 OK in 388ms (Views: 305.7ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 03:22:58 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (89.0ms)
+Completed 200 OK in 390ms (Views: 299.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 03:23:09 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (98.9ms)
+Completed 200 OK in 407ms (Views: 322.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 03:23:40 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (165.9ms)
+Completed 500 Internal Server Error in 578ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"sessions"}, missing required keys: [:id]):
+     8:    <%= label_tag :email%>
+     9:    <%= text_field_tag :email %><br/><br/>
+    10:    <button type="submit" class="changePasswordPageBtn submitbtn">Reset</button>
+    11:     <button type="button" class="registerPageBtn cancelbtn"><%= link_to 'Cancel', session_path %></button>
+    12:    </div>
+    13: <%end%>
+    14: 
+  
+app/views/sessions/index.html.erb:11:in `block in _app_views_sessions_index_html_erb___824093828_67816944'
+app/views/sessions/index.html.erb:3:in `_app_views_sessions_index_html_erb___824093828_67816944'
+Started GET "/sessions" for ::1 at 2020-04-14 03:25:14 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (91.0ms)
+Completed 200 OK in 398ms (Views: 312.5ms)
+
+
+Started GET "/login" for ::1 at 2020-04-14 03:25:17 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/login" for ::1 at 2020-04-14 03:26:40 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-04-14 03:27:26 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (98.9ms)
+Completed 200 OK in 399ms (Views: 317.1ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 03:27:31 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (75.0ms)
+Completed 200 OK in 364ms (Views: 285.0ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 03:27:35 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (84.9ms)
+Completed 200 OK in 372ms (Views: 295.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 03:27:37 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (82.0ms)
+Completed 200 OK in 360ms (Views: 287.5ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 03:27:55 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/login"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-04-14 03:28:56 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 383ms (Views: 298.9ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 03:29:01 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 342ms (Views: 270.6ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 03:29:10 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/login"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-04-14 03:31:03 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (76.9ms)
+Completed 200 OK in 385ms (Views: 310.7ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 03:31:06 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VmoSdY1fte+UM6unCgZsSka4+cAsN4aGcsO8jsj7iJVjZN0F+NlI2prGm7F5RCGGGMWD/Acsbuty+RxPBdbXwA==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 379ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 03:31:06 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/index.html.erb within layouts/application (581.7ms)
+Completed 200 OK in 1056ms (Views: 787.9ms)
+
+
+Started GET "/widgets/new" for ::1 at 2020-04-14 03:31:25 +0100
+Processing by WidgetsController#new as HTML
+  Rendering widgets/new.html.erb within layouts/application
+  Rendered widgets/_form.html.erb (425.8ms)
+  Rendered widgets/new.html.erb within layouts/application (564.7ms)
+Completed 200 OK in 1081ms (Views: 989.0ms)
+
+
+Started GET "/widgets/new" for ::1 at 2020-04-14 03:34:51 +0100
+Processing by WidgetsController#new as HTML
+  Rendering widgets/new.html.erb within layouts/application
+  Rendered widgets/_form.html.erb (9.0ms)
+  Rendered widgets/new.html.erb within layouts/application (367.1ms)
+Completed 200 OK in 774ms (Views: 647.9ms)
+
+
+Started GET "/widgets/new" for ::1 at 2020-04-14 03:36:11 +0100
+Processing by WidgetsController#new as HTML
+  Rendering widgets/new.html.erb within layouts/application
+  Rendered widgets/_form.html.erb (15.0ms)
+  Rendered widgets/new.html.erb within layouts/application (250.9ms)
+Completed 200 OK in 667ms (Views: 553.0ms)
+
+
+Started GET "/widgets/new" for ::1 at 2020-04-14 03:37:04 +0100
+Processing by WidgetsController#new as HTML
+  Rendering widgets/new.html.erb within layouts/application
+  Rendered widgets/_form.html.erb (13.0ms)
+  Rendered widgets/new.html.erb within layouts/application (274.8ms)
+Completed 200 OK in 646ms (Views: 556.4ms)
+
+
+Started GET "/widgets/new" for ::1 at 2020-04-14 03:38:37 +0100
+Processing by WidgetsController#new as HTML
+  Rendering widgets/new.html.erb within layouts/application
+  Rendered widgets/_form.html.erb (9.0ms)
+  Rendered widgets/new.html.erb within layouts/application (165.9ms)
+Completed 200 OK in 565ms (Views: 464.1ms)
+
+
+Started GET "/widgets/new" for ::1 at 2020-04-14 03:38:43 +0100
+Processing by WidgetsController#new as HTML
+  Rendering widgets/new.html.erb within layouts/application
+  Rendered widgets/_form.html.erb (8.0ms)
+  Rendered widgets/new.html.erb within layouts/application (157.9ms)
+Completed 200 OK in 440ms (Views: 360.8ms)
+
+
+Started GET "/widgets/new" for ::1 at 2020-04-14 03:38:58 +0100
+Processing by WidgetsController#new as HTML
+  Rendering widgets/new.html.erb within layouts/application
+  Rendered widgets/_form.html.erb (10.0ms)
+  Rendered widgets/new.html.erb within layouts/application (159.9ms)
+Completed 200 OK in 551ms (Views: 432.9ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 03:39:35 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (608.7ms)
+Completed 200 OK in 1201ms (Views: 875.8ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 03:39:42 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 628ms (Views: 209.2ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 03:41:00 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 757ms (Views: 219.9ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 03:41:08 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 688ms (Views: 216.8ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 03:41:48 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (76.0ms)
+Completed 200 OK in 801ms (Views: 284.3ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 03:42:49 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (72.0ms)
+Completed 200 OK in 848ms (Views: 288.2ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 03:44:15 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (77.0ms)
+Completed 200 OK in 786ms (Views: 283.7ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 03:44:59 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 808ms (Views: 332.2ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 03:45:18 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 767ms (Views: 280.0ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 03:46:42 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (83.0ms)
+Completed 200 OK in 857ms (Views: 295.8ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 03:48:45 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 787ms (Views: 287.6ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 03:48:58 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 777ms (Views: 281.1ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-14 03:49:08 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 509ms (Views: 243.9ms)
+
+
+Started GET "/users" for ::1 at 2020-04-14 03:49:14 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 469ms (Views: 224.8ms)
+
+
+Started GET "/users" for ::1 at 2020-04-14 03:49:38 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 497ms (Views: 224.6ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 03:49:58 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (80.0ms)
+Completed 200 OK in 369ms (Views: 292.9ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 03:50:00 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kw1wr8B1IqMcDPMORjH0KVKNXOjwEREQYxX7Hu+FjOUeA7/ftfPflhL5wxg1c7nlDPAm1NsK+X1jL1vfIqjTsA==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 410ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 03:50:01 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (581.7ms)
+Completed 200 OK in 1046ms (Views: 792.9ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 03:50:04 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (96.9ms)
+Completed 200 OK in 741ms (Views: 307.5ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 03:50:08 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (594.7ms)
+Completed 200 OK in 1076ms (Views: 812.5ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 03:50:11 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (72.9ms)
+Completed 200 OK in 708ms (Views: 283.5ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 03:51:55 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (72.0ms)
+Completed 200 OK in 805ms (Views: 279.7ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 03:52:20 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 729ms (Views: 286.1ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-14 03:52:25 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (105.9ms)
+Completed 200 OK in 562ms (Views: 317.8ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-14 03:53:07 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (76.0ms)
+Completed 200 OK in 716ms (Views: 288.3ms)
+
+
+Started GET "/users" for ::1 at 2020-04-14 03:53:50 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 495ms (Views: 227.8ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-14 03:56:25 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (78.0ms)
+Completed 200 OK in 738ms (Views: 290.7ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-14 03:57:09 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (77.9ms)
+Completed 200 OK in 678ms (Views: 303.7ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-14 03:58:19 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (88.0ms)
+Completed 200 OK in 577ms (Views: 303.3ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-14 03:58:21 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0h37FZ/03HYB4e6OkbQ9hgEjtS42Fmk4vYjb9jcBGq6gIxECP2viiXJwgnz46uE7AjCRXOIKPhLE/ghKNAaKiQ==", "firstname"=>"Rahul", "lastname"=>"Rana", "email"=>"mr.rahulrana@gmail.com", "imageurl"=>"", "id"=>"4102"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 175ms (Views: 1.5ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-14 03:58:55 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 634ms (Views: 284.6ms)
+
+
+Started GET "/users" for ::1 at 2020-04-14 03:59:04 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 464ms (Views: 222.3ms)
+
+
+Started GET "/users" for ::1 at 2020-04-14 03:59:57 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 533ms (Views: 234.8ms)
+
+
+Started GET "/users" for ::1 at 2020-04-14 04:00:24 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 471ms (Views: 219.4ms)
+
+
+Started GET "/users" for ::1 at 2020-04-14 04:02:20 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (85.0ms)
+Completed 200 OK in 713ms (Views: 301.9ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 04:02:37 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (114.9ms)
+Completed 200 OK in 865ms (Views: 380.9ms)
+
+
+Started GET "/users" for ::1 at 2020-04-14 04:02:48 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (70.0ms)
+Completed 200 OK in 535ms (Views: 262.1ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 13:16:46 +0100
+Started GET "/" for ::1 at 2020-04-14 13:16:50 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (3011.0ms)
+  Rendered sessions/new.html.erb within layouts/application (3039.0ms)
+Completed 500 Internal Server Error in 3531ms (ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3607ms (Views: 3449.2ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+    1: 
+    2: <%= stylesheet_link_tag "application" %>
+    3: <div class="login-container">
+    4:  <%= form_tag login_path do %>
+    5: 
+  
+app/views/sessions/new.html.erb:2:in `_app_views_sessions_new_html_erb__81691135_55582860'
+Started GET "/" for ::1 at 2020-04-14 13:21:36 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (120.2ms)
+Completed 200 OK in 676ms (Views: 490.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 13:22:01 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aHxSNEg4nWnzOlRfokmcPu2Xm24LsiH04eqIE2M6MmkHWqnmVKdLRd0HXVrfwUtAVmTzCam+lDoHpR/K7JbyCg==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 764ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 13:22:02 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (833.2ms)
+Completed 200 OK in 1498ms (Views: 1047.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets/new" for ::1 at 2020-04-14 13:22:21 +0100
+Processing by WidgetsController#new as HTML
+  Rendering widgets/new.html.erb within layouts/application
+  Rendered widgets/_form.html.erb (652.4ms)
+  Rendered widgets/new.html.erb within layouts/application (743.4ms)
+Completed 200 OK in 1087ms (Views: 989.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/widgets" for ::1 at 2020-04-14 13:22:51 +0100
+Processing by WidgetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HMvHmuyW7YI+/676c1Gt16fC9LkXpgmyRcuZSWPiwnvb1+L6i7CyX86/HuUQs6wMBUr+pKiq17ySy+PLpYQ9iA==", "widget"=>{"name"=>"monday wid", "description"=>"mon desc", "kind"=>"visible"}}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 230ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 13:22:52 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (16.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (839.6ms)
+Completed 200 OK in 1377ms (Views: 1064.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets/2354/edit" for ::1 at 2020-04-14 13:23:19 +0100
+Processing by WidgetsController#edit as HTML
+  Parameters: {"id"=>"2354"}
+  Rendering widgets/edit.html.erb within layouts/application
+  Rendered widgets/edit.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 592ms (Views: 229.6ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/widgets/2354" for ::1 at 2020-04-14 13:23:27 +0100
+Processing by WidgetsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y+ML4aLcWqWBEepRKrvE9GoCkhiwkKXonSAztrVNa8y0DQIWYLROl3grBXL8DfVh/AlM6FXgcTc5fDrugvPD4Q==", "name"=>"monday wid", "description"=>"mon desc edit", "commit"=>"update", "id"=>"2354"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 444ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 13:23:28 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (3.9ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (10.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (853.2ms)
+Completed 200 OK in 1397ms (Views: 1090.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 13:23:37 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (88.9ms)
+Completed 200 OK in 1018ms (Views: 320.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 13:23:45 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (824.2ms)
+Completed 200 OK in 1353ms (Views: 1073.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-14 13:24:08 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kh4bxr9T0PEz54rRMRe+FjAilFEgik54RcOpy/jltm+JGUdCAKoBMc9bPbAT2Pqy2dHIF8uC1bxwLfQIqY4thQ==", "searchkey"=>"biscu"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (6.2ms)
+  Rendered widgets/search.html.erb within layouts/application (180.5ms)
+Completed 200 OK in 932ms (Views: 404.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-14 13:24:18 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rZg0aKUkRnxzjtXiZ+wvzqYUeZulx1z8hnbG15bqCVkOn2jsGt2XvI8yYoNFI2tqT+cl3U7PxzizmJsUx4GSsw==", "searchkey"=>"fi"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (7.3ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.5ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/search.html.erb within layouts/application (1936.9ms)
+Completed 200 OK in 2561ms (Views: 2168.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/1670" for ::1 at 2020-04-14 13:24:39 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1670"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (90.8ms)
+Completed 200 OK in 832ms (Views: 304.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 13:25:08 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.3ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.5ms)
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (665.1ms)
+Completed 200 OK in 1216ms (Views: 844.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 13:25:10 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (150.2ms)
+Completed 200 OK in 467ms (Views: 374.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-14 13:25:16 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (48.0ms)
+  Rendered users/new.html.erb within layouts/application (467.6ms)
+Completed 200 OK in 824ms (Views: 712.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/welcome" for ::1 at 2020-04-14 13:25:32 +0100
+Processing by SessionsController#show as HTML
+  Parameters: {"id"=>"welcome"}
+Completed 406 Not Acceptable in 4009ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (SessionsController#show is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.7) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.7) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.7) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.7) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.7) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.7) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.7) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.7) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.7) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.7) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.7) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.7) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.7) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.7) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.7) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.7) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.7) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users" for ::1 at 2020-04-14 13:25:47 +0100
+Processing by UsersController#index as HTML
+Started GET "/" for ::1 at 2020-04-14 13:25:52 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendering users/index.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2044.8ms)
+Completed 200 OK in 6921ms (Views: 6694.4ms | ActiveRecord: 0.0ms)
+
+
+  Rendered users/index.html.erb within layouts/application (160.0ms)
+Completed 200 OK in 13115ms (Views: 4277.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 13:26:13 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (93.1ms)
+Completed 200 OK in 481ms (Views: 337.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 13:26:29 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (92.2ms)
+Completed 200 OK in 556ms (Views: 445.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 13:31:15 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bF59Bl9xAZVfbLk+UTAqowCmAc1DcmFyznI0is3qHwIDeIbUQ+7XuXFRsDssuP3du1VpquF+1LwoPaNTQkbfYQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 427ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 13:31:16 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (843.3ms)
+Completed 200 OK in 1380ms (Views: 1071.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/delete" for ::1 at 2020-04-14 13:31:20 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/delete"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/delete" for ::1 at 2020-04-14 13:32:12 +0100
+Processing by WidgetsController#delete as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 36ms (Views: 34.1ms)
+
+
+Started GET "/delete" for ::1 at 2020-04-14 13:33:24 +0100
+Processing by WidgetsController#delete as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 2.8ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 17:56:47 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1273.9ms)
+Completed 200 OK in 1660ms (Views: 1516.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 17:57:26 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YegzmGgXfO2JZ2YXdP/lY7rj0wD0q8230zUYSzO0xW4OzshKdIiqwadabxIJdzIdARC7Z1aneHk1eo+SvBgFDQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 20145ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 17:57:46 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (276.8ms)
+Completed 200 OK in 826ms (Views: 358.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/delete.2351" for ::1 at 2020-04-14 17:58:10 +0100
+Processing by WidgetsController#delete as 
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 17ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/delete.2346" for ::1 at 2020-04-14 17:58:41 +0100
+Processing by WidgetsController#delete as 
+Completed 400 Bad Request in 3ms
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: widget):
+  
+app/controllers/widgets_controller.rb:221:in `widget_params'
+app/controllers/widgets_controller.rb:152:in `delete'
+Started GET "/delete.2354" for ::1 at 2020-04-14 18:00:38 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/delete.2354"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/delete.2354" for ::1 at 2020-04-14 18:01:27 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/delete.2354"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/widgets" for ::1 at 2020-04-14 18:02:37 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (284.9ms)
+Completed 200 OK in 599ms (Views: 367.7ms)
+
+
+Started DELETE "/delete.2351" for ::1 at 2020-04-14 18:02:42 +0100
+  
+ActionController::RoutingError (No route matches [DELETE] "/delete.2351"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started DELETE "/delete.2351" for ::1 at 2020-04-14 18:03:31 +0100
+  
+ActionController::RoutingError (No route matches [DELETE] "/delete.2351"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/widgets" for ::1 at 2020-04-14 18:04:59 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (82.7ms)
+  Rendered widgets/index.html.erb within layouts/application (166.1ms)
+Completed 500 Internal Server Error in 509ms
+
+
+  
+SyntaxError (C:/Sites/Widget-manager/app/views/widgets/_widgetitem.html.erb:9: syntax error, unexpected '='
+...firm: 'Are you sure?' }, class="button" );@output_buffer.saf...
+...                               ^):
+  
+app/views/widgets/_widgetitem.html.erb:9: syntax error, unexpected '='
+app/views/widgets/index.html.erb:33:in `block in _app_views_widgets_index_html_erb___804547376_98024340'
+app/views/widgets/index.html.erb:32:in `each'
+app/views/widgets/index.html.erb:32:in `_app_views_widgets_index_html_erb___804547376_98024340'
+Started POST "/login" for ::1 at 2020-04-14 18:06:01 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YegzmGgXfO2JZ2YXdP/lY7rj0wD0q8230zUYSzO0xW4OzshKdIiqwadabxIJdzIdARC7Z1aneHk1eo+SvBgFDQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 355ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 18:06:01 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (294.8ms)
+Completed 200 OK in 647ms (Views: 387.9ms)
+
+
+Started DELETE "/delete" for ::1 at 2020-04-14 18:06:05 +0100
+  
+ActionController::RoutingError (No route matches [DELETE] "/delete"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started DELETE "/delete" for ::1 at 2020-04-14 18:07:32 +0100
+  
+ActionController::RoutingError (No route matches [DELETE] "/delete"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started DELETE "/delete" for ::1 at 2020-04-14 18:09:53 +0100
+  
+ActionController::RoutingError (No route matches [DELETE] "/delete"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started DELETE "/delete" for ::1 at 2020-04-14 18:10:59 +0100
+  
+ActionController::RoutingError (No route matches [DELETE] "/delete"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/widgets" for ::1 at 2020-04-14 18:11:44 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (7.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (864.5ms)
+Completed 200 OK in 1467ms (Views: 1088.2ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 18:15:11 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1363.3ms)
+Completed 200 OK in 1906ms (Views: 1605.2ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 18:20:14 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (7.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (685.7ms)
+Completed 200 OK in 1232ms (Views: 930.6ms)
+
+
+Started POST "/widgets.2351" for ::1 at 2020-04-14 18:20:24 +0100
+Processing by WidgetsController#create as 
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cMTmCix8o/IGm/l1Fl+hGk7Ggzl4p4Q7sMV+ZpxKzgmPYkag7marvIx0EJDPvAdF1qU1k1IfjQBI2vfdxIIJlA==", "commit"=>"destroy"}
+Completed 400 Bad Request in 3ms
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: widget):
+  
+app/controllers/widgets_controller.rb:221:in `widget_params'
+app/controllers/widgets_controller.rb:66:in `create'
+Started GET "/widgets" for ::1 at 2020-04-14 18:21:38 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (7.0ms)
+  Rendered widgets/index.html.erb within layouts/application (378.6ms)
+Completed 500 Internal Server Error in 1164ms
+
+
+  
+SyntaxError (C:/Sites/Widget-manager/app/views/widgets/_widgetitem.html.erb:9: syntax error, unexpected ':', expecting ')'
+...ppend=  form_tag widgets_path(: widget.id), :method => :post...
+...                               ^
+C:/Sites/Widget-manager/app/views/widgets/_widgetitem.html.erb:9: syntax error, unexpected ')', expecting keyword_end
+...m_tag widgets_path(: widget.id), :method => :post do @output...
+...                               ^
+C:/Sites/Widget-manager/app/views/widgets/_widgetitem.html.erb:27: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/widgets/_widgetitem.html.erb:9: syntax error, unexpected ':', expecting ')'
+app/views/widgets/_widgetitem.html.erb:9: syntax error, unexpected ')', expecting keyword_end
+app/views/widgets/_widgetitem.html.erb:27: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/widgets/index.html.erb:33:in `block in _app_views_widgets_index_html_erb___804547376_54196512'
+app/views/widgets/index.html.erb:32:in `each'
+app/views/widgets/index.html.erb:32:in `_app_views_widgets_index_html_erb___804547376_54196512'
+Started GET "/widgets" for ::1 at 2020-04-14 18:22:08 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/index.html.erb within layouts/application (240.9ms)
+Completed 500 Internal Server Error in 6881ms
+
+
+  
+SyntaxError (C:/Sites/Widget-manager/app/views/widgets/_widgetitem.html.erb:9: syntax error, unexpected ':', expecting ')'
+...ppend=  form_tag widgets_path(: widget.id), :method => :post...
+...                               ^
+C:/Sites/Widget-manager/app/views/widgets/_widgetitem.html.erb:9: syntax error, unexpected ')', expecting keyword_end
+...m_tag widgets_path(: widget.id), :method => :post do @output...
+...                               ^
+C:/Sites/Widget-manager/app/views/widgets/_widgetitem.html.erb:27: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/widgets/_widgetitem.html.erb:9: syntax error, unexpected ':', expecting ')'
+app/views/widgets/_widgetitem.html.erb:9: syntax error, unexpected ')', expecting keyword_end
+app/views/widgets/_widgetitem.html.erb:27: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/widgets/index.html.erb:33:in `block in _app_views_widgets_index_html_erb___804547376_111861840'
+app/views/widgets/index.html.erb:32:in `each'
+app/views/widgets/index.html.erb:32:in `_app_views_widgets_index_html_erb___804547376_111861840'
+Started POST "/login" for ::1 at 2020-04-14 18:23:14 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YegzmGgXfO2JZ2YXdP/lY7rj0wD0q8230zUYSzO0xW4OzshKdIiqwadabxIJdzIdARC7Z1aneHk1eo+SvBgFDQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 395ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 18:23:14 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/index.html.erb within layouts/application (156.9ms)
+Completed 500 Internal Server Error in 650ms
+
+
+  
+SyntaxError (C:/Sites/Widget-manager/app/views/widgets/_widgetitem.html.erb:9: syntax error, unexpected ':', expecting ')'
+...ppend=  form_tag widgets_path(: widget.id), :method => :post...
+...                               ^
+C:/Sites/Widget-manager/app/views/widgets/_widgetitem.html.erb:9: syntax error, unexpected ')', expecting keyword_end
+...m_tag widgets_path(: widget.id), :method => :post do @output...
+...                               ^
+C:/Sites/Widget-manager/app/views/widgets/_widgetitem.html.erb:27: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/widgets/_widgetitem.html.erb:9: syntax error, unexpected ':', expecting ')'
+app/views/widgets/_widgetitem.html.erb:9: syntax error, unexpected ')', expecting keyword_end
+app/views/widgets/_widgetitem.html.erb:27: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/widgets/index.html.erb:33:in `block in _app_views_widgets_index_html_erb___804547376_91242000'
+app/views/widgets/index.html.erb:32:in `each'
+app/views/widgets/index.html.erb:32:in `_app_views_widgets_index_html_erb___804547376_91242000'
+Started GET "/" for ::1 at 2020-04-14 18:50:43 +0100
+Started GET "/" for ::1 at 2020-04-14 18:50:46 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2649.2ms)
+Completed 200 OK in 3157ms (Views: 2972.0ms | ActiveRecord: 0.0ms)
+
+
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (99.9ms)
+Completed 200 OK in 491ms (Views: 386.9ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 18:52:04 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uRS4D7W7zHakdOYserFRgPbNC3zrL8DLDyiUwiVvQAjWMkPdqSQaWopJ7ykHOYb+TT5jG0kjdQXpZwMbqsOAaw==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 899ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 18:52:05 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (9.0ms)
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (841.4ms)
+Completed 200 OK in 1464ms (Views: 1054.7ms)
+
+
+Started POST "/delete" for ::1 at 2020-04-14 18:52:50 +0100
+  
+AbstractController::ActionNotFound (The action 'delete' could not be found for WidgetsController):
+  
+actionpack (5.1.7) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.7) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.7) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.7) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.7) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/delete" for ::1 at 2020-04-14 18:53:50 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kMOG85l2uIHsy/39Foxnh4sTLFJTf2MCJJdl6leS/N+4uT1+SQo3fxpUOUKHgcPlglewTH4s40SFgyS6jqix1w==", "commit"=>"destroy"}
+  Rendering text template
+  Rendered text template (1.0ms)
+Completed 200 OK in 35ms (Views: 32.7ms)
+
+
+Started POST "/delete" for ::1 at 2020-04-14 18:54:39 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kMOG85l2uIHsy/39Foxnh4sTLFJTf2MCJJdl6leS/N+4uT1+SQo3fxpUOUKHgcPlglewTH4s40SFgyS6jqix1w==", "commit"=>"destroy"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.4ms)
+
+
+Started POST "/delete" for ::1 at 2020-04-14 18:55:12 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kMOG85l2uIHsy/39Foxnh4sTLFJTf2MCJJdl6leS/N+4uT1+SQo3fxpUOUKHgcPlglewTH4s40SFgyS6jqix1w==", "commit"=>"destroy"}
+Completed 400 Bad Request in 5ms
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: widget):
+  
+app/controllers/widgets_controller.rb:221:in `widget_params'
+app/controllers/widgets_controller.rb:152:in `delete'
+Started POST "/delete" for ::1 at 2020-04-14 18:56:03 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kMOG85l2uIHsy/39Foxnh4sTLFJTf2MCJJdl6leS/N+4uT1+SQo3fxpUOUKHgcPlglewTH4s40SFgyS6jqix1w==", "commit"=>"destroy"}
+  Rendering text template
+  Rendered text template (1.0ms)
+Completed 200 OK in 5ms (Views: 2.2ms)
+
+
+Started POST "/delete" for ::1 at 2020-04-14 18:56:49 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kMOG85l2uIHsy/39Foxnh4sTLFJTf2MCJJdl6leS/N+4uT1+SQo3fxpUOUKHgcPlglewTH4s40SFgyS6jqix1w==", "commit"=>"destroy"}
+Completed 400 Bad Request in 4ms
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: widget):
+  
+app/controllers/widgets_controller.rb:221:in `widget_params'
+app/controllers/widgets_controller.rb:152:in `delete'
+Started GET "/widgets" for ::1 at 2020-04-14 19:03:29 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (854.3ms)
+Completed 200 OK in 1669ms (Views: 1068.5ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 19:03:49 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (646.8ms)
+Completed 200 OK in 1225ms (Views: 835.1ms)
+
+
+Started POST "/delete/2351" for ::1 at 2020-04-14 19:04:09 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MOEVWo/lUifYnEep4sJW2ktAIRmGV+a7gbx+6WUGM+lnT7vnNxAP/I+H+oPmarE0CqHHF4CqWFKm0d5F/uwwRw==", "commit"=>"destroy", "id"=>"2351"}
+Completed 400 Bad Request in 3ms
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: widget):
+  
+app/controllers/widgets_controller.rb:221:in `widget_params'
+app/controllers/widgets_controller.rb:152:in `delete'
+Started POST "/delete/2351" for ::1 at 2020-04-14 19:05:02 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MOEVWo/lUifYnEep4sJW2ktAIRmGV+a7gbx+6WUGM+lnT7vnNxAP/I+H+oPmarE0CqHHF4CqWFKm0d5F/uwwRw==", "commit"=>"destroy", "id"=>"2351"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 2.4ms)
+
+
+Started POST "/delete/2346" for ::1 at 2020-04-14 19:05:29 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0Jrde6JVYctxQT0rw8YV68CNlPYBhhblmK6nsTiABveZt1XWJim3oQU9X00xua4Ah1K5cdTEOOUFq/KOYZa0VQ==", "commit"=>"destroy", "id"=>"2346"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 2.2ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 19:08:02 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (680.6ms)
+Completed 200 OK in 1181ms (Views: 864.9ms)
+
+
+Started GET "/delete/2351" for ::1 at 2020-04-14 19:08:25 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"id"=>"2351"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 1.4ms)
+
+
+Started GET "/delete/2346" for ::1 at 2020-04-14 19:08:30 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"id"=>"2346"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/delete/2344" for ::1 at 2020-04-14 19:11:16 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"id"=>"2344"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 500 Internal Server Error in 51ms (Views: 2.4ms)
+
+
+  
+NameError (uninitialized constant Net::HTTP::Del):
+  
+app/controllers/widgets_controller.rb:160:in `delete'
+Started GET "/delete/2351" for ::1 at 2020-04-14 19:27:53 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"id"=>"2351"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 500 Internal Server Error in 925ms (Views: 2.3ms)
+
+
+  
+NameError (undefined local variable or method `result' for #<WidgetsController:0xc38d930>):
+  
+app/controllers/widgets_controller.rb:171:in `delete'
+Started GET "/delete/2351" for ::1 at 2020-04-14 19:29:01 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"id"=>"2351"}
+Completed 500 Internal Server Error in 47ms
+
+
+  
+NameError (uninitialized constant Net::HTTP::Del):
+  
+app/controllers/widgets_controller.rb:159:in `delete'
+Started GET "/delete/2351" for ::1 at 2020-04-14 19:30:30 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"id"=>"2351"}
+Completed 500 Internal Server Error in 55ms
+
+
+  
+NameError (uninitialized constant Net::HTTP::Del):
+  
+app/controllers/widgets_controller.rb:159:in `delete'
+Started GET "/delete/2351" for ::1 at 2020-04-14 19:31:32 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"id"=>"2351"}
+Completed 500 Internal Server Error in 251ms
+
+
+  
+RuntimeError (Invalid response {"code":3,"message":"That widget was not found","data":null} received.):
+  
+app/controllers/widgets_controller.rb:169:in `block in delete'
+app/controllers/widgets_controller.rb:159:in `delete'
+Started GET "/delete/2345" for ::1 at 2020-04-14 19:32:24 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"id"=>"2345"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Redirected to 
+Completed 500 Internal Server Error in 214ms (Views: 3.0ms)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/widgets_controller.rb:174:in `block (2 levels) in delete'
+app/controllers/widgets_controller.rb:173:in `delete'
+Started GET "/widgets" for ::1 at 2020-04-14 19:33:46 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (497.7ms)
+Completed 200 OK in 1045ms (Views: 699.9ms)
+
+
+Started GET "/delete/2342" for ::1 at 2020-04-14 19:34:11 +0100
+  
+SyntaxError (C:/Sites/Widget-manager/app/controllers/widgets_controller.rb:215: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/widgets_controller.rb:215: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/delete/2342" for ::1 at 2020-04-14 19:34:50 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"id"=>"2342"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 214ms (Views: 2.5ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 19:35:35 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (505.7ms)
+Completed 200 OK in 1074ms (Views: 743.1ms)
+
+
+Started GET "/delete/2344" for ::1 at 2020-04-14 19:35:44 +0100
+Processing by WidgetsController#delete as HTML
+  Parameters: {"id"=>"2344"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 235ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 19:35:44 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (365.0ms)
+Completed 200 OK in 886ms (Views: 548.8ms)
+
+
+Started GET "/widgets/new" for ::1 at 2020-04-14 19:35:59 +0100
+Processing by WidgetsController#new as HTML
+  Rendering widgets/new.html.erb within layouts/application
+  Rendered widgets/_form.html.erb (529.2ms)
+  Rendered widgets/new.html.erb within layouts/application (872.0ms)
+Completed 200 OK in 1272ms (Views: 1129.8ms)
+
+
+Started GET "/widgets/new" for ::1 at 2020-04-14 19:41:45 +0100
+Processing by WidgetsController#new as HTML
+  Rendering widgets/new.html.erb within layouts/application
+  Rendered widgets/_form.html.erb (0.0ms)
+  Rendered widgets/new.html.erb within layouts/application (173.0ms)
+Completed 200 OK in 495ms (Views: 390.3ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 19:42:00 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (85.0ms)
+Completed 200 OK in 928ms (Views: 277.9ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 19:42:14 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (81.0ms)
+Completed 200 OK in 749ms (Views: 269.6ms)
+
+
+Started GET "/widgets/2354/edit" for ::1 at 2020-04-14 19:42:29 +0100
+Processing by WidgetsController#edit as HTML
+  Parameters: {"id"=>"2354"}
+  Rendering widgets/edit.html.erb within layouts/application
+  Rendered widgets/edit.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 606ms (Views: 249.3ms)
+
+
+Started GET "/widgets/2354/edit" for ::1 at 2020-04-14 19:47:51 +0100
+Processing by WidgetsController#edit as HTML
+  Parameters: {"id"=>"2354"}
+  Rendering widgets/edit.html.erb within layouts/application
+  Rendered widgets/edit.html.erb within layouts/application (124.9ms)
+Completed 200 OK in 751ms (Views: 430.2ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 19:48:08 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (390.2ms)
+Completed 200 OK in 897ms (Views: 591.3ms)
+
+
+Started GET "/widgets/2354/edit" for ::1 at 2020-04-14 19:48:17 +0100
+Processing by WidgetsController#edit as HTML
+  Parameters: {"id"=>"2354"}
+  Rendering widgets/edit.html.erb within layouts/application
+  Rendered widgets/edit.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 719ms (Views: 273.8ms)
+
+
+Started PUT "/widgets/2354" for ::1 at 2020-04-14 19:48:39 +0100
+Processing by WidgetsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wAusKcGPj+KruUyEip8TTGcfLXTpaT3onDaBifbGn0u/5aXeA+eb0FKDo6dcKSLZ8RTzhAwZ6Tc4aojRwXg3Zg==", "name"=>"monday wid", "description"=>"mon desc update", "id"=>"2354"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 419ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 19:48:40 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (369.6ms)
+Completed 200 OK in 839ms (Views: 569.3ms)
+
+
+Started GET "/widgets/new" for ::1 at 2020-04-14 19:48:48 +0100
+Processing by WidgetsController#new as HTML
+  Rendering widgets/new.html.erb within layouts/application
+  Rendered widgets/_form.html.erb (13.0ms)
+  Rendered widgets/new.html.erb within layouts/application (163.9ms)
+Completed 200 OK in 539ms (Views: 444.6ms)
+
+
+Started POST "/widgets" for ::1 at 2020-04-14 19:49:15 +0100
+Processing by WidgetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l03jdhJL0K8GW3SUF89HS0+MpEOULWY58aovsju8LYlQUcYWdW2PcvYbxIt0LUaQ7QSuXishuDcmqlUw/drSeg==", "widget"=>{"name"=>"latest", "description"=>"lat wid", "kind"=>"hidden"}}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 226ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 19:49:15 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (449.7ms)
+Completed 200 OK in 941ms (Views: 637.9ms)
+
+
+Started GET "/widgets/2354/edit" for ::1 at 2020-04-14 19:50:02 +0100
+Processing by WidgetsController#edit as HTML
+  Parameters: {"id"=>"2354"}
+  Rendering widgets/edit.html.erb within layouts/application
+  Rendered widgets/edit.html.erb within layouts/application (85.0ms)
+Completed 200 OK in 651ms (Views: 318.3ms)
+
+
+Started GET "/widgets/2354/edit" for ::1 at 2020-04-14 19:52:19 +0100
+Processing by WidgetsController#edit as HTML
+  Parameters: {"id"=>"2354"}
+  Rendering widgets/edit.html.erb within layouts/application
+  Rendered widgets/edit.html.erb within layouts/application (83.0ms)
+Completed 200 OK in 875ms (Views: 273.2ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 19:52:37 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (499.7ms)
+Completed 200 OK in 987ms (Views: 740.6ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-14 19:52:42 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (81.0ms)
+Completed 200 OK in 789ms (Views: 264.4ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 19:53:02 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (537.7ms)
+Completed 200 OK in 1132ms (Views: 784.8ms)
+
+
+Started GET "/widgets/new" for ::1 at 2020-04-14 19:53:41 +0100
+Processing by WidgetsController#new as HTML
+  Rendering widgets/new.html.erb within layouts/application
+  Rendered widgets/_form.html.erb (11.0ms)
+  Rendered widgets/new.html.erb within layouts/application (166.9ms)
+Completed 200 OK in 494ms (Views: 382.5ms)
+
+
+Started GET "/widgets/new" for ::1 at 2020-04-14 19:54:42 +0100
+Processing by WidgetsController#new as HTML
+  Rendering widgets/new.html.erb within layouts/application
+  Rendered widgets/_form.html.erb (14.0ms)
+  Rendered widgets/new.html.erb within layouts/application (397.8ms)
+Completed 200 OK in 739ms (Views: 623.6ms)
+
+
+Started GET "/widgets/new" for ::1 at 2020-04-14 19:55:09 +0100
+Processing by WidgetsController#new as HTML
+  Rendering widgets/new.html.erb within layouts/application
+  Rendered widgets/_form.html.erb (10.0ms)
+  Rendered widgets/new.html.erb within layouts/application (183.9ms)
+Completed 200 OK in 542ms (Views: 444.4ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 19:59:13 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (431.4ms)
+Completed 200 OK in 1075ms (Views: 632.8ms)
+
+
+Started GET "/authenticates/new" for ::1 at 2020-04-14 19:59:21 +0100
+Processing by AuthenticatesController#new as HTML
+  Rendering authenticates/new.html.erb within layouts/application
+  Rendered authenticates/_form.html.erb (71.9ms)
+  Rendered authenticates/new.html.erb within layouts/application (290.8ms)
+Completed 500 Internal Server Error in 558ms
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_with(model: authenticate, local: true) do |form| %>
+    2:   <% if authenticate.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(authenticate.errors.count, "error") %> prohibited this authenticate from being saved:</h2>
+    5: 
+  
+app/views/authenticates/_form.html.erb:2:in `block in _app_views_authenticates__form_html_erb__479355492_105081840'
+app/views/authenticates/_form.html.erb:1:in `_app_views_authenticates__form_html_erb__479355492_105081840'
+app/views/authenticates/new.html.erb:3:in `_app_views_authenticates_new_html_erb__681595777_105130080'
+Started GET "/widgets" for ::1 at 2020-04-14 20:01:55 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (441.7ms)
+Completed 200 OK in 921ms (Views: 643.7ms)
+
+
+Started GET "/authenticates" for ::1 at 2020-04-14 20:01:59 +0100
+Processing by AuthenticatesController#index as HTML
+  Rendering authenticates/index.html.erb within layouts/application
+  Rendered authenticates/index.html.erb within layouts/application (80.0ms)
+Completed 200 OK in 430ms (Views: 291.9ms)
+
+
+Started GET "/authenticates" for ::1 at 2020-04-14 20:23:24 +0100
+Processing by AuthenticatesController#index as HTML
+  Rendering authenticates/index.html.erb within layouts/application
+  Rendered authenticates/index.html.erb within layouts/application (95.9ms)
+Completed 200 OK in 376ms (Views: 287.2ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 20:23:35 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (423.9ms)
+Completed 200 OK in 902ms (Views: 613.8ms)
+
+
+Started GET "/change" for ::1 at 2020-04-14 20:23:39 +0100
+Processing by SessionsController#change as HTML
+Completed 500 Internal Server Error in 8ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/sessions_controller.rb:80:in `+'
+app/controllers/sessions_controller.rb:80:in `change'
+Started GET "/change" for ::1 at 2020-04-14 20:26:20 +0100
+Processing by SessionsController#change as HTML
+  Rendering sessions/change.html.erb within layouts/application
+  Rendered sessions/change.html.erb within layouts/application (92.0ms)
+Completed 200 OK in 524ms (Views: 341.2ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 20:29:32 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (443.0ms)
+Completed 200 OK in 922ms (Views: 631.7ms)
+
+
+Started GET "/change" for ::1 at 2020-04-14 20:29:38 +0100
+Processing by SessionsController#change as HTML
+  Rendering sessions/change.html.erb within layouts/application
+  Rendered sessions/change.html.erb within layouts/application (96.0ms)
+Completed 200 OK in 364ms (Views: 281.8ms)
+
+
+Started POST "/change" for ::1 at 2020-04-14 20:29:47 +0100
+Processing by SessionsController#changepassword as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A/mZDoPW7rwe1yESDz2PAo4MheHTmxsC6hA1oPlFUzGQOMwYaFh5I8jaTBxfb2C/PpyO2oXkPDzuHmWSKi09LA==", "email"=>"mr.rahulrana@gmail.com", "oldpassword"=>"[FILTERED]", "newpassword"=>"[FILTERED]", "confirmnewpassword"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 4ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/sessions_controller.rb:84:in `+'
+app/controllers/sessions_controller.rb:84:in `changepassword'
+Started POST "/change" for ::1 at 2020-04-14 20:34:27 +0100
+Processing by SessionsController#changepassword as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A/mZDoPW7rwe1yESDz2PAo4MheHTmxsC6hA1oPlFUzGQOMwYaFh5I8jaTBxfb2C/PpyO2oXkPDzuHmWSKi09LA==", "email"=>"mr.rahulrana@gmail.com", "oldpassword"=>"[FILTERED]", "newpassword"=>"[FILTERED]", "confirmnewpassword"=>"[FILTERED]"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 2.1ms)
+
+
+Started GET "/change" for ::1 at 2020-04-14 20:34:37 +0100
+Processing by SessionsController#change as HTML
+  Rendering sessions/change.html.erb within layouts/application
+  Rendered sessions/change.html.erb within layouts/application (100.0ms)
+Completed 200 OK in 458ms (Views: 361.3ms)
+
+
+Started GET "/change" for ::1 at 2020-04-14 20:37:59 +0100
+Processing by SessionsController#change as HTML
+  Rendering sessions/change.html.erb within layouts/application
+  Rendered sessions/change.html.erb within layouts/application (124.0ms)
+Completed 200 OK in 503ms (Views: 355.2ms)
+
+
+Started GET "/change" for ::1 at 2020-04-14 20:40:18 +0100
+Processing by SessionsController#change as HTML
+  Rendering sessions/change.html.erb within layouts/application
+  Rendered sessions/change.html.erb within layouts/application (84.0ms)
+Completed 200 OK in 612ms (Views: 513.1ms)
+
+
+Started GET "/change" for ::1 at 2020-04-14 20:40:21 +0100
+Processing by SessionsController#change as HTML
+  Rendering sessions/change.html.erb within layouts/application
+  Rendered sessions/change.html.erb within layouts/application (76.0ms)
+Completed 200 OK in 368ms (Views: 287.3ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 20:40:24 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (76.0ms)
+Completed 200 OK in 404ms (Views: 273.5ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 20:40:40 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (80.0ms)
+Completed 200 OK in 376ms (Views: 277.7ms)
+
+
+Started GET "/sessions" for ::1 at 2020-04-14 20:41:03 +0100
+Processing by SessionsController#index as HTML
+  Rendering sessions/index.html.erb within layouts/application
+  Rendered sessions/index.html.erb within layouts/application (120.0ms)
+Completed 200 OK in 618ms (Views: 492.0ms)
+
+
+Started GET "/change" for ::1 at 2020-04-14 20:41:16 +0100
+Processing by SessionsController#change as HTML
+  Rendering sessions/change.html.erb within layouts/application
+  Rendered sessions/change.html.erb within layouts/application (88.0ms)
+Completed 200 OK in 348ms (Views: 277.6ms)
+
+
+Started GET "/change" for ::1 at 2020-04-14 20:41:21 +0100
+Processing by SessionsController#change as HTML
+  Rendering sessions/change.html.erb within layouts/application
+  Rendered sessions/change.html.erb within layouts/application (75.9ms)
+Completed 200 OK in 332ms (Views: 260.1ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 20:41:24 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (76.0ms)
+Completed 200 OK in 328ms (Views: 256.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 21:13:12 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 176ms (Views: 141.5ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 21:16:37 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BRbc2OfkwZ7dCi1WiWRXYUPTtyU77PyHwm674FmKR6JqMCcK+3sXsvM3JFP07IAf+CDfQpngSUkkISw51iaHwQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 467ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 21:16:37 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (216.0ms)
+Completed 200 OK in 762ms (Views: 350.5ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 22:19:54 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 203ms (Views: 127.7ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 22:20:13 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 188ms (Views: 149.9ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:20:20 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gEZNeCwWMIhrk0fFmrr9sJnr1Ow2XGeGmVXiRc75ddfvYLaqMInmpEWuTsDnMirOIhi8i5RQ0kh/GnWcQVW1tA==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Completed 500 Internal Server Error in 734ms
+
+
+  
+NoMethodError (undefined method `code' for nil:NilClass):
+  
+app/controllers/sessions_controller.rb:39:in `block (2 levels) in create'
+app/controllers/sessions_controller.rb:38:in `block in create'
+app/controllers/sessions_controller.rb:24:in `create'
+Started POST "/login" for ::1 at 2020-04-14 22:21:32 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gEZNeCwWMIhrk0fFmrr9sJnr1Ow2XGeGmVXiRc75ddfvYLaqMInmpEWuTsDnMirOIhi8i5RQ0kh/GnWcQVW1tA==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 564ms
+
+
+Started GET "/login" for ::1 at 2020-04-14 22:21:33 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/login" for ::1 at 2020-04-14 22:23:03 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gEZNeCwWMIhrk0fFmrr9sJnr1Ow2XGeGmVXiRc75ddfvYLaqMInmpEWuTsDnMirOIhi8i5RQ0kh/GnWcQVW1tA==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 621ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 22:23:04 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (76.0ms)
+Completed 200 OK in 331ms (Views: 266.7ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 22:25:32 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 204ms (Views: 172.0ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:25:35 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GMBwVniP6TjckZ7sohQ31awDiX4tg5BXSF30FMazf8t35ouEZBA/FPKsl+nfnOCrF/DhGY+PJZmuEmPNSR+/qA==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 507ms (Views: 1.5ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 22:30:59 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 141ms (Views: 106.4ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:31:03 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wajeLUVxlRplPUpuLsC3OK2LrQtm1Lk86+o7YkRr/v2ujiX/We5DNksAQ2tTSGBGFnjFbMTYDPINpay7y8c+ng==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Completed 500 Internal Server Error in 608ms
+
+
+  
+RuntimeError (Invalid response {"code":0,"message":"Success","data":{"token":{"access_token":"37e0be1caf4773c923842c36b1bf82271ebde4aaf5454212a3c30801f6c9c941","token_type":"Bearer","expires_in":2592000,"refresh_token":"3f0b415ac1608faecd9dbe3674d5734dbfa47e5e902726de6373e76ce4dd2f58","scope":"basic","created_at":1586899865}}} received.):
+  
+app/controllers/sessions_controller.rb:49:in `block (2 levels) in create'
+app/controllers/sessions_controller.rb:38:in `block in create'
+app/controllers/sessions_controller.rb:24:in `create'
+Started GET "/" for ::1 at 2020-04-14 22:39:27 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 141ms (Views: 110.6ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:39:33 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wajeLUVxlRplPUpuLsC3OK2LrQtm1Lk86+o7YkRr/v2ujiX/We5DNksAQ2tTSGBGFnjFbMTYDPINpay7y8c+ng==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 592ms (Views: 1.6ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:39:42 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AoyhGfzeJ9rjw9wU3D08Jm+i/6JDYFwUIi7AXSPdnCJtqlrL4EHx9s3+1RGhtetY1FGXxeFs6drEYVeErHFcQQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 490ms (Views: 1.5ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:40:30 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AoyhGfzeJ9rjw9wU3D08Jm+i/6JDYFwUIi7AXSPdnCJtqlrL4EHx9s3+1RGhtetY1FGXxeFs6drEYVeErHFcQQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 521ms (Views: 2.6ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:41:17 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AoyhGfzeJ9rjw9wU3D08Jm+i/6JDYFwUIi7AXSPdnCJtqlrL4EHx9s3+1RGhtetY1FGXxeFs6drEYVeErHFcQQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 500 Internal Server Error in 632ms (Views: 4.4ms)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/sessions_controller.rb:57:in `create'
+Started POST "/login" for ::1 at 2020-04-14 22:41:41 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AoyhGfzeJ9rjw9wU3D08Jm+i/6JDYFwUIi7AXSPdnCJtqlrL4EHx9s3+1RGhtetY1FGXxeFs6drEYVeErHFcQQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 725ms (Views: 2.1ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:45:02 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AoyhGfzeJ9rjw9wU3D08Jm+i/6JDYFwUIi7AXSPdnCJtqlrL4EHx9s3+1RGhtetY1FGXxeFs6drEYVeErHFcQQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 595ms (Views: 2.5ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:45:12 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AoyhGfzeJ9rjw9wU3D08Jm+i/6JDYFwUIi7AXSPdnCJtqlrL4EHx9s3+1RGhtetY1FGXxeFs6drEYVeErHFcQQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 504ms (Views: 1.6ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:47:27 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AoyhGfzeJ9rjw9wU3D08Jm+i/6JDYFwUIi7AXSPdnCJtqlrL4EHx9s3+1RGhtetY1FGXxeFs6drEYVeErHFcQQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 562ms (Views: 4.0ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:48:44 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AoyhGfzeJ9rjw9wU3D08Jm+i/6JDYFwUIi7AXSPdnCJtqlrL4EHx9s3+1RGhtetY1FGXxeFs6drEYVeErHFcQQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 690ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 22:48:45 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (199.9ms)
+Completed 200 OK in 775ms (Views: 337.1ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 22:49:43 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 172ms (Views: 134.3ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:49:50 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x2Phxw3Pp1hEiLpUPR9YTJC5D/rppk8CHEt0oHfPdAioRRoVEVBxdGq1s1FAl48yK0pnnUuq+sz6BON5+GO0aw==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 550ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 22:49:51 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (317.5ms)
+Completed 200 OK in 789ms (Views: 502.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 22:50:09 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 176ms (Views: 135.7ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 22:53:47 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 140ms (Views: 113.7ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:53:51 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jlPnGtecQPCTQy1X7jKu7qPz4avrGwfcGtGN7ugZw3bhdRzIywOW3L1+JFKTunmQGACJzEkXshL8nho3Z7UDFQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 347ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 22:53:52 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 196ms (Views: 154.7ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 22:55:21 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 191ms (Views: 139.7ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:55:26 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w9HPJH4VmP9d9E7o74CC8OtqjGBk7FmrGlYTQ3lpjBus9zT2YopO03PJR+2SCFWOUJnkB8bg7GX8GYSa9sVMeA==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 360ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 22:55:26 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 160ms (Views: 115.6ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 22:55:57 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 184ms (Views: 139.2ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 22:56:26 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 192ms (Views: 134.0ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:56:31 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GdYv31Ykm51kF8NV+v8IwhUb2giU9A9S9wrLLHTL1kp28NQNSrtNsUoqylCHd9+8ruiybzb4upwRRVz1+2cWKQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 322ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 22:56:31 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 152ms (Views: 113.5ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 22:59:54 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 168ms (Views: 136.1ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 22:59:57 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YTcdAFGXeDBlZNbQQ8FTjitc61PdPkgE8bTd1jwrKS4OEebSTQiuHEtZ39U+SYTwkK+DNH8y/coX+0oPs4fpTQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 600ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 22:59:57 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/index.html.erb within layouts/application (267.9ms)
+Completed 200 OK in 720ms (Views: 452.9ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 23:00:04 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YTcdAFGXeDBlZNbQQ8FTjitc61PdPkgE8bTd1jwrKS4OEebSTQiuHEtZ39U+SYTwkK+DNH8y/coX+0oPs4fpTQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 332ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 23:00:05 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 156ms (Views: 115.4ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 23:00:40 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 156ms (Views: 120.9ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 23:00:47 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 148ms (Views: 113.8ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 23:00:52 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xReBSFAoA/HDSZB41BZrz+baaDpVTXKwMS178cQZ5LmqMXqaTLfV3e10mX2pnryxXSkAXfdBx37XYuwoS7Uk2g==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 618ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 23:00:53 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (214.4ms)
+Completed 200 OK in 602ms (Views: 353.1ms)
+
+
+Started GET "/" for ::1 at 2020-04-14 23:06:28 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 172ms (Views: 149.9ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 23:06:31 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3SzLdWJEStzMgVZXsyGOVFD3EighP8iClbM+mdDpv32yCjCnftuc8OK8X1LOqVkq6wR6T4MzfUxz/KlAX0V/Hg==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 724ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 23:06:32 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (191.9ms)
+Completed 200 OK in 632ms (Views: 368.3ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 23:12:22 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/index.html.erb within layouts/application (259.9ms)
+Completed 200 OK in 676ms (Views: 382.6ms)
+
+
+Started GET "/logout" for ::1 at 2020-04-14 23:12:29 +0100
+Processing by SessionsController#logout as HTML
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 0ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 23:12:29 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (160.0ms)
+Completed 200 OK in 272ms (Views: 242.4ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 23:12:36 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iwSyM/8b5QVje8sp8LDY8LU8Vd9ROcuR2SiOgro3TlnkIknh44QzKU1GwiyNOA+ODs89uPM1fl8/ZxlbNZuOOg==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 392ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 23:12:37 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 144ms (Views: 114.9ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 23:13:32 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 252ms (Views: 216.5ms)
+
+
+Started POST "/login" for ::1 at 2020-04-14 23:13:34 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"X5zaSmA+rDp+BQ1JAY/Dbg03vE0sNUa85Vxcx9YxcmYwuiGYfKF6FlA4BEx8BxQQtsTUKo4583IDE8seWZ2yBQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 681ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-14 23:13:35 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (187.9ms)
+Completed 200 OK in 573ms (Views: 310.7ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-14 23:13:39 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WV51gBaSy81zexsn4YsSRkiUEP9wGE6c+i+ZQAY3qlL6WSkEqWsaDY/HrEbDRFbioWdMuZsQ1VjPwcSDV1wxuA==", "searchkey"=>"fi"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/search.html.erb within layouts/application (657.1ms)
+Completed 200 OK in 1282ms (Views: 843.6ms)
+
+
+Started GET "/logout" for ::1 at 2020-04-14 23:13:44 +0100
+Processing by SessionsController#logout as HTML
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 4ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-14 23:13:44 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 136ms (Views: 107.1ms)
+
+

@@ -15,17 +15,17 @@
  <div class="container">
     <h1>New Widget</h1>
   <div class="field">
-    <%= form.label :name %>
+    <b><%= form.label :name %></b>
     <%= form.text_field :name, id: :widget_name %>
   </div>
 
   <div class="field">
-    <%= form.label :description %>
+    <b><%= form.label :description %></b>
     <%= form.text_field :description, id: :widget_description %>
   </div>
 
   <div class="field">
-    <%= form.label :kind %>
+    <b><%= form.label :kind %></b>
     <%= form.select :kind, [['Hidden','hidden'],['Visible','visible']], id: :widget_kind %>
   </div>
 

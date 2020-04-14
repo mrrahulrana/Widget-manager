@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
   end
   def logged_in?
         
-      !current_user.nil?
+      !session[:access_token].nil?
   end
   def authorized
     #redirect_to sessions_welcome_path unless logged_in?
