@@ -4,9 +4,15 @@
 <div class="header">
   <span class="header-text">Widgets</span>
   <div class="header-right">
+  <%if !logged_in? %>
+    <b>Welcome Guest</b>
+    <%= link_to 'Login', new_session_path %>
+  <%end%>
+  <%if logged_in? %>
     <b>Welcome <%= session[:username] %></b>
     <%= link_to 'Logout', logout_path %>
     <%= link_to 'Change Password', change_path %>
+  <%end%>
   </div>
 </div>
 
@@ -18,8 +24,9 @@
    <%= form_tag search_path, :method => :post, class: "widgetform" do %>
       <%= text_field_tag :searchkey %>
       <button type="submit" value="search">Search</button>
-      
+      <%if logged_in? %>
       <span style="float: right;"><button><%= link_to 'Create Widget', new_widget_path %></button></span>
+      <%end%>
       <% end %>
   </div>
 

@@ -86,6 +86,7 @@ class UsersController < ApplicationController
     end
     if session[:access_token].present?
       format.html { redirect_to widgets_path, notice: 'User was successfully created.' }
+      format.json { render :index, status: :ok, location: widgets_path }
     else
       redirect_to login_path
     end

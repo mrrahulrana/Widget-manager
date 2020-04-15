@@ -20,7 +20,7 @@ Rails.application.routes.draw do
 
   post '/change', to: 'sessions#changepassword', as: :changepassword
 
-  root 'sessions#new'
+  root 'widgets#index'
 
   get 'unauthorized', to: 'sessions#unauthorized', as: :unauthorized
 

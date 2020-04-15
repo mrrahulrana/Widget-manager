@@ -1,5 +1,6 @@
 class WidgetsController < ApplicationController
   before_action :set_widget, only: [:index, :show, :edit, :update, :destroy]
+  skip_before_action :authorized, only: [ :index]
 
   # GET /widgets
   # GET /widgets.json
@@ -179,6 +180,37 @@ end
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_widget
+      if !logged_in?
+        userresponse = RestClient::Request.new({
+          method: :get,
+          url: ENV['API_URL'] + 'widgets/visible?client_id='+ ENV['CLIENT_ID'] + '&client_secret=' + ENV['CLIENT_SECRET'] +'&term=',
+          headers: { content_type: 'application/json'}
+        }).execute do |userresponse, request, result|
+          case userresponse.code
+          when 400
+            [ :error, JSON.parse(userresponse) ]
+          when 200
+            [ :success, JSON.parse(userresponse) ]
+            json=JSON.parse(userresponse)
+          rec = Array.new
+          json["data"]["widgets"].each do |item|
+              widget= Widget.new 
+              widget.id=item["id"]
+              widget.name=item["name"]
+              widget.description=item["description"]
+              widget.kind=item["kind"]
+              widget.userid=item["user"]["id"]
+              widget.username=item["user"]["name"]
+              widget.owner=item["owner"]
+              rec << widget
+          end
+          @widgetlist= WidgetList.new
+          @widgetlist.widgets = rec
+          else
+            fail "Invalid response #{userresponse.to_str} received."
+          end
+        end
+      else
       response = RestClient::Request.new({
         method: :get,
         url: ENV['API_URL'] + '/widgets',
@@ -204,11 +236,11 @@ end
           end
           @widgetlist= WidgetList.new
           @widgetlist.widgets = rec
-          #render plain: @widgetlist.widgets.count
         else
           fail "Invalid response #{response.to_str} received."
         end
       end
+    end
     end
 
     # Only allow a list of trusted parameters through.

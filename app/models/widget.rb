@@ -18,4 +18,4 @@ class WidgetList
         @widgets.push(Widget.new(widget_params))
         end
     end
-    end
+end
