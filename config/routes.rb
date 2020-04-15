@@ -20,9 +20,8 @@ Rails.application.routes.draw do
 
   post '/change', to: 'sessions#changepassword', as: :changepassword
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root 'sessions#new'
 
-  get 'authorized', to: 'sessions#page_requires_login'
+  get 'unauthorized', to: 'sessions#unauthorized', as: :unauthorized
 
 end

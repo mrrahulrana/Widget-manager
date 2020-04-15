@@ -27,7 +27,7 @@ class WidgetsController < ApplicationController
    response = RestClient::Request.new({
     method: :get,
     url: ENV['API_URL'] + '/widgets/visible?client_id=' + ENV['CLIENT_ID'] + '&client_secret=' + ENV['CLIENT_SECRET'] + '&term=' + params[:searchkey],
-    headers: { Authorization: ENV['AUTH2_TOKEN'], content_type: 'application/json'}
+    headers: { Authorization: session[:access_token], content_type: 'application/json'}
   }).execute do |response, request, result|
     case response.code
     when 400
@@ -71,7 +71,7 @@ class WidgetsController < ApplicationController
       method: :post,
       url: ENV['API_URL'] + '/widgets',
       payload: request_body_Data,
-      headers: { Authorization: ENV['AUTH2_TOKEN'], content_type: 'application/json'}
+      headers: { Authorization: session[:access_token], content_type: 'application/json'}
     }).execute do |response, request, result|
       case response.code
       when 400
@@ -116,7 +116,7 @@ class WidgetsController < ApplicationController
       method: :put,
       url: ENV['API_URL'] + '/widgets/' + params[:id],
       payload: request_body_Data,
-      headers: { Authorization: ENV['AUTH2_TOKEN'], content_type: 'application/json'}
+      headers: { Authorization: session[:access_token], content_type: 'application/json'}
     }).execute do |response, request, result|
       case response.code
       when 400
@@ -155,7 +155,7 @@ class WidgetsController < ApplicationController
     response = RestClient::Request.new({
       method: :delete,
       url: ENV['API_URL'] + '/widgets/' + params[:id],
-      headers: { Authorization: ENV['AUTH2_TOKEN'], content_type: 'application/json'}
+      headers: { Authorization: session[:access_token], content_type: 'application/json'}
     }).execute do |response, request, result|
       case response.code
       when 400
@@ -182,7 +182,7 @@ end
       response = RestClient::Request.new({
         method: :get,
         url: ENV['API_URL'] + '/widgets',
-        headers: { Authorization: ENV['AUTH2_TOKEN'], content_type: 'application/json'}
+        headers: { Authorization: session[:access_token], content_type: 'application/json'}
       }).execute do |response, request, result|
         case response.code
         when 400

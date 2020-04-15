@@ -5,6 +5,7 @@ class Widget
 
     validates :name, presence: true
     validates :description, presence: true, length: {in:5..255}
+    validates :kind, presence: true
 end
 
 class WidgetList

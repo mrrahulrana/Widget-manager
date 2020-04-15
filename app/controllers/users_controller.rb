@@ -3,12 +3,20 @@ require 'json'
 
 class UsersController < ApplicationController
   skip_before_action :authorized, only: [:new, :create]
-  before_action :set_user, only: [:index, :show, :edit, :update, :destroy]
+  before_action :authorized, only: [:index, :show, :edit, :update, :destroy]
 
   # GET /users
   # GET /users.json
   def index
-    
+  end
+
+  # GET /users/new
+  def new
+    @user = User.new
+  end
+  
+  # GET /users/1/edit
+  def edit
   end
 
   # GET /users/1
@@ -17,7 +25,7 @@ class UsersController < ApplicationController
     response = RestClient::Request.new({
       method: :get,
       url: ENV['API_URL'] + '/users/' + params[:id],
-      headers: { Authorization: ENV['AUTH2_TOKEN']}
+      headers: { Authorization: session[:access_token]}
     }).execute do |response, request, result|
       case response.code
       when 400
@@ -83,15 +91,6 @@ class UsersController < ApplicationController
     end
   end
 
-  # GET /users/new
-  def new
-    @user = User.new
-  end
-
-  # GET /users/1/edit
-  def edit
-  end
-
 
   def update
     request_body_Data= '{ "user":
@@ -105,7 +104,7 @@ class UsersController < ApplicationController
       method: :put,
       url: ENV['API_URL'] + '/users/me',
       payload: request_body_Data,
-      headers: { Authorization: ENV['AUTH2_TOKEN'], content_type: 'application/json'}
+      headers: { Authorization: session[:access_token], content_type: 'application/json'}
     }).execute do |response, request, result|
       case response.code
       when 400
@@ -143,29 +142,7 @@ class UsersController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
-    def set_user
-      response = RestClient::Request.new({
-        method: :get,
-        url: ENV['API_URL'] + '/users/me',
-        headers: { Authorization: ENV['AUTH2_TOKEN']}
-      }).execute do |response, request, result|
-        case response.code
-        when 400
-          [ :error, JSON.parse(response) ]
-        when 200
-          [ :success, JSON.parse(response) ]
-          json=JSON.parse(response)
-          user= User.new
-          user.id=json["data"]["user"]["id"]
-          user.firstname=json["data"]["user"]["first_name"]
-          user.lastname=json["data"]["user"]["last_name"]
-          user.email=json["data"]["user"]["email"]
-          @user= user
-        else
-          fail "Invalid response #{response.to_str} received."
-        end
-      end
-    end
+    
 
     # Only allow a list of trusted parameters through.
     def user_params

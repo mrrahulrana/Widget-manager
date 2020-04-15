@@ -1,0 +1,11 @@
+<%= stylesheet_link_tag "application" %>
+<form style="width: 800px">
+<div class="login-container">
+    <% if !session[:access_token].present? %>
+    <h1>Sorry, You can not access this page, please login first.</h1>
+     <div class="container" style="background-color:#f1f1f1; height:90px; width:140px">
+    <button type="button" class="loginPageBtn loginPageBtn"><%= link_to 'Login', new_session_path %></button>
+    </div>
+    <%end%>
+</div>
+</form>

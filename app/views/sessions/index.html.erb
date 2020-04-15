@@ -7,9 +7,11 @@
     <hr>
    <%= label_tag :email%>
    <%= text_field_tag :email %><br/><br/>
-   <button type="submit" class="changePasswordPageBtn submitbtn">Reset</button>
     <button type="button" class="registerPageBtn cancelbtn"><%= link_to 'Cancel', new_session_path %></button>
+    <button type="submit" class="changePasswordPageBtn submitbtn">Reset</button>
+    <p id="notice" style="color: red;"><%= notice %></p>
    </div>
+   
 <%end%>
 
 </div>
