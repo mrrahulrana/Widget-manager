@@ -9,7 +9,7 @@
     <%= link_to 'Login', new_session_path %>
   <%end%>
   <%if logged_in? %>
-    <b>Welcome <%= session[:username] %></b>
+    <b><%= session[:username] %></b>
     <%= link_to 'Logout', logout_path %>
     <%= link_to 'Change Password', change_path %>
   <%end%>
