@@ -19782,3 +19782,2351 @@ Processing by WidgetsController#index as HTML
 Completed 200 OK in 2464ms (Views: 1921.9ms)
 
 
+Started GET "/" for ::1 at 2020-04-16 00:01:58 +0100
+Started GET "/" for ::1 at 2020-04-16 00:01:59 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WidgetsController#index as HTML
+Processing by WidgetsController#index as HTML
+Completed 500 Internal Server Error in 98616ms (ActiveRecord: 0.0ms)
+
+
+Completed 500 Internal Server Error in 98691ms (ActiveRecord: 0.0ms)
+
+
+  
+  
+OpenSSL::SSL::SSLError (SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A):
+OpenSSL::SSL::SSLError (SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A):
+  
+  
+app/controllers/widgets_controller.rb:218:in `set_widget'
+app/controllers/widgets_controller.rb:218:in `set_widget'
+Started GET "/" for ::1 at 2020-04-16 00:12:44 +0100
+Started GET "/" for ::1 at 2020-04-16 00:12:48 +0100
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WidgetsController#index as HTML
+Processing by WidgetsController#index as HTML
+Completed 500 Internal Server Error in 102806ms (ActiveRecord: 0.0ms)
+
+
+Completed 500 Internal Server Error in 102879ms (ActiveRecord: 0.0ms)
+
+
+  
+OpenSSL::SSL::SSLError (SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A):
+  
+app/controllers/widgets_controller.rb:218:in `set_widget'
+  
+OpenSSL::SSL::SSLError (SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A):
+  
+app/controllers/widgets_controller.rb:218:in `set_widget'
+Started GET "/sessions/new" for ::1 at 2020-04-16 00:15:30 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (6354.4ms)
+Completed 200 OK in 7250ms (Views: 6961.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-04-16 00:16:46 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V6YehoyCi+Eq3SwnUSRm+zrAQVYXgrJ9UUVTDmWsDPYQ3UJ3KxxGX5s+rjRUc6YjWvqA6jvqQ7NaOYKCthotGQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 897ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:16:47 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1357.2ms)
+Completed 200 OK in 2600ms (Views: 1796.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:18:52 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1390.2ms)
+Completed 200 OK in 2450ms (Views: 1907.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:23:43 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1266.3ms)
+Completed 200 OK in 2213ms (Views: 1715.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:24:59 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1242.3ms)
+Completed 200 OK in 2165ms (Views: 1701.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:26:39 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1126.4ms)
+Completed 200 OK in 1925ms (Views: 1525.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:37:18 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (156.9ms)
+  Rendered widgets/index.html.erb within layouts/application (520.7ms)
+Completed 500 Internal Server Error in 1459ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4:     	<span><label><b><%= widget.kind %></b></label></span>
+    5:         <span style="float: right;">
+    6:         <%if session[:userid].present? %>
+    7:     	  <button><%= link_to 'Edit', edit_widget_path(widget.id) %><% @session["userid"] %></button>
+    8:         <button><%= link_to 'Delete', delete_path(widget.id) %></button>
+    9:         <%end%>
+   10:         </span>
+  
+app/views/widgets/_widgetitem.html.erb:7:in `_app_views_widgets__widgetitem_html_erb___282488199_86387388'
+app/views/widgets/index.html.erb:40:in `block in _app_views_widgets_index_html_erb__856772515_98656452'
+app/views/widgets/index.html.erb:39:in `each'
+app/views/widgets/index.html.erb:39:in `_app_views_widgets_index_html_erb__856772515_98656452'
+Started POST "/login" for ::1 at 2020-04-16 00:38:25 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V6YehoyCi+Eq3SwnUSRm+zrAQVYXgrJ9UUVTDmWsDPYQ3UJ3KxxGX5s+rjRUc6YjWvqA6jvqQ7NaOYKCthotGQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 946ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:38:26 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (7.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (7.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1630.1ms)
+Completed 200 OK in 2588ms (Views: 2187.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:38:43 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1294.3ms)
+Completed 200 OK in 2234ms (Views: 1776.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:39:53 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1322.2ms)
+Completed 200 OK in 2193ms (Views: 1743.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:40:16 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (8.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/index.html.erb within layouts/application (2068.8ms)
+Completed 200 OK in 3286ms (Views: 2690.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:41:09 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1433.2ms)
+Completed 200 OK in 2356ms (Views: 1912.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:41:45 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (10.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1633.1ms)
+Completed 200 OK in 2542ms (Views: 2071.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:42:22 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (19.0ms)
+  Rendered widgets/index.html.erb within layouts/application (649.6ms)
+Completed 500 Internal Server Error in 1609ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Sites/Widget-manager/app/views/widgets/_widgetitem.html.erb:7: syntax error, unexpected '=', expecting keyword_end
+...append='        <h1>'.freeze; =session[:access_token].presen...
+...                               ^):
+  
+app/views/widgets/_widgetitem.html.erb:7: syntax error, unexpected '=', expecting keyword_end
+app/views/widgets/index.html.erb:40:in `block in _app_views_widgets_index_html_erb__856772515_109286832'
+app/views/widgets/index.html.erb:39:in `each'
+app/views/widgets/index.html.erb:39:in `_app_views_widgets_index_html_erb__856772515_109286832'
+Started GET "/widgets" for ::1 at 2020-04-16 00:43:02 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (11.0ms)
+  Rendered widgets/index.html.erb within layouts/application (581.7ms)
+Completed 500 Internal Server Error in 12682ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Sites/Widget-manager/app/views/widgets/_widgetitem.html.erb:7: syntax error, unexpected '=', expecting keyword_end
+...append='        <h1>'.freeze; =session[:access_token].presen...
+...                               ^
+C:/Sites/Widget-manager/app/views/widgets/_widgetitem.html.erb:26: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/widgets/_widgetitem.html.erb:7: syntax error, unexpected '=', expecting keyword_end
+app/views/widgets/_widgetitem.html.erb:26: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/widgets/index.html.erb:40:in `block in _app_views_widgets_index_html_erb__856772515_25420476'
+app/views/widgets/index.html.erb:39:in `each'
+app/views/widgets/index.html.erb:39:in `_app_views_widgets_index_html_erb__856772515_25420476'
+Started GET "/widgets" for ::1 at 2020-04-16 00:43:47 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (7.0ms)
+  Rendered widgets/index.html.erb within layouts/application (707.6ms)
+Completed 500 Internal Server Error in 24786ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Sites/Widget-manager/app/views/widgets/_widgetitem.html.erb:26: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/widgets/_widgetitem.html.erb:26: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/widgets/index.html.erb:40:in `block in _app_views_widgets_index_html_erb__856772515_109210500'
+app/views/widgets/index.html.erb:39:in `each'
+app/views/widgets/index.html.erb:39:in `_app_views_widgets_index_html_erb__856772515_109210500'
+Started GET "/widgets" for ::1 at 2020-04-16 00:45:50 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/index.html.erb within layouts/application (514.7ms)
+Completed 500 Internal Server Error in 1457ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Sites/Widget-manager/app/views/widgets/_widgetitem.html.erb:26: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/widgets/_widgetitem.html.erb:26: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/widgets/index.html.erb:40:in `block in _app_views_widgets_index_html_erb__856772515_101718324'
+app/views/widgets/index.html.erb:39:in `each'
+app/views/widgets/index.html.erb:39:in `_app_views_widgets_index_html_erb__856772515_101718324'
+Started GET "/widgets" for ::1 at 2020-04-16 00:50:29 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1539.1ms)
+Completed 200 OK in 2510ms (Views: 1983.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:50:53 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1415.2ms)
+Completed 200 OK in 2297ms (Views: 1865.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:53:02 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (10.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1369.2ms)
+Completed 200 OK in 2303ms (Views: 1830.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-16 00:53:21 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"judcPd2vZD2iSYK0JXu/GTdRJRBYf5rPRiBHuP43XUDd4Guvg/HPG89JpDIFzogXyVVxhp+mzbomVa5Bn1IHjA==", "searchkey"=>"dsd"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (7.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/search.html.erb within layouts/application (961.5ms)
+Completed 200 OK in 2456ms (Views: 1400.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:53:37 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1310.2ms)
+Completed 200 OK in 2146ms (Views: 1758.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-16 00:53:53 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xU74OeI2YNpAfxICY2A8dDYkxN5ZzU+nXlqpTHTikSiWSc+rvGjL/C1/NIRD1Qt6yCCQSJ4UGNI+L0C1FYfL5A==", "searchkey"=>"monday"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/search.html.erb within layouts/application (347.8ms)
+Completed 200 OK in 1346ms (Views: 821.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-16 00:54:00 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"II+xLvC+yA7Tc+zMKZFjwJ1+mjY66i9/BT/EpHiqWmVziIa8ruBjKL5zykoJJFTOY3rOoP0zeAplSi1dGc8AqQ==", "searchkey"=>"test"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/search.html.erb within layouts/application (3389.1ms)
+Completed 200 OK in 4477ms (Views: 3875.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:54:28 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1263.3ms)
+Completed 200 OK in 2278ms (Views: 1855.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-16 00:54:39 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KeAv7xhFv0ue0oeW/g024rdqzu7fcg7UCBiW/h1XU4B65xh9RhsUbfPSoRDeuAHsSW6aeBirWaFobX8HfDIJTA==", "searchkey"=>"test"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (7.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/search.html.erb within layouts/application (3516.0ms)
+Completed 200 OK in 4495ms (Views: 3982.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:54:57 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1238.3ms)
+Completed 200 OK in 2136ms (Views: 1749.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-16 00:55:40 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z1lUOeiWHgd3a2cZdZ96K91E2drUSM5nXAbrg1JPwvc0XmOrtsi1IRprQZ9VKk0lI0CNTBORmRI8cwJ6MyqYOw==", "searchkey"=>"first"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/search.html.erb within layouts/application (1280.3ms)
+Completed 200 OK in 2164ms (Views: 1707.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 00:56:15 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1470.2ms)
+Completed 200 OK in 2502ms (Views: 1997.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-16 00:56:35 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6k7Vax9B2qtezOxDY8CwwLf4poUQ6qgu2Tk++bUMx4m5SeL5QR9xjTPMysVDdYfOSfzyE9cz/1u5TNcA1GmdRQ==", "searchkey"=>"latest"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/search.html.erb within layouts/application (407.8ms)
+Completed 200 OK in 1284ms (Views: 853.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/2102" for ::1 at 2020-04-16 00:56:44 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (164.9ms)
+Completed 200 OK in 1174ms (Views: 610.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for ::1 at 2020-04-16 00:57:15 +0100
+Processing by SessionsController#logout as HTML
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 00:57:15 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (176.9ms)
+Completed 200 OK in 833ms (Views: 632.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-16 00:57:37 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/index.html.erb within layouts/application (3382.1ms)
+Completed 200 OK in 4213ms (Views: 3760.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-16 00:57:50 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5bm6VAhV+OpFVCYqit0TRI9Nt8CsGLcYZDa06XDo5t22vo3GVgtTzChUAKyqaCRKcUnjVmvB4G0EQ10QEY28EQ==", "searchkey"=>"fi"}
+Redirected to http://localhost:3000/unauthorized
+Filter chain halted as :authorized rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/unauthorized" for ::1 at 2020-04-16 00:57:50 +0100
+Processing by SessionsController#unauthorized as HTML
+  Rendering sessions/unauthorized.html.erb within layouts/application
+  Rendered sessions/unauthorized.html.erb within layouts/application (157.9ms)
+Completed 200 OK in 951ms (Views: 518.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-16 01:01:01 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (3401.1ms)
+Completed 200 OK in 4405ms (Views: 3818.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 01:01:09 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (162.9ms)
+Completed 200 OK in 965ms (Views: 766.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 01:01:20 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (3192.2ms)
+Completed 200 OK in 4215ms (Views: 3646.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 01:06:43 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (197.9ms)
+Completed 200 OK in 825ms (Views: 652.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-04-16 01:06:48 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YapazORRElUNLChfBj7i9dfHUe8dO7vuyeDjQ/Z5Y24m0QY9Q8/f67zPqkwDaSItt/2QUzFTSiDCnDLPJc9CgQ==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 1039ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 01:06:49 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (8.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1816.0ms)
+Completed 200 OK in 3378ms (Views: 2261.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for ::1 at 2020-04-16 01:07:01 +0100
+Processing by SessionsController#logout as HTML
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 01:07:01 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (148.9ms)
+Completed 200 OK in 731ms (Views: 556.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-04-16 01:07:10 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1Ax/AwRdZbNeVjrY1/tOGeG+o8qFlnv2zsVIAKBAaEGTdyPyo8OoDe+1uMvSrI7BgYRidqn+ijjFuZmMc/ZJrg==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 852ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 01:07:12 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (9.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1384.2ms)
+Completed 200 OK in 2260ms (Views: 1817.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for ::1 at 2020-04-16 01:07:18 +0100
+Processing by SessionsController#logout as HTML
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 01:07:19 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (259.9ms)
+Completed 200 OK in 991ms (Views: 782.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2020-04-16 01:10:28 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ijqALzXT9LPz7eqEZ1cMnv6gGE28bV81eNbeHHmw5bDNQdzekk05DUIOaJdiAMxGnprZ8ZAFrvtzqg+QqgbEXw==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 995ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 01:10:30 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1417.2ms)
+Completed 200 OK in 6396ms (Views: 5945.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-16 01:10:39 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (132.9ms)
+Completed 200 OK in 1083ms (Views: 559.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-16 01:10:51 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (401.8ms)
+Completed 500 Internal Server Error in 1435ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `firstname' for nil:NilClass):
+    4: <%= form_tag user_path, :method => :put do %>
+    5:   <h1>Edit User Details</h1>
+    6:  <div class="container">
+    7:    First name <%=text_field_tag :firstname, @user.firstname%><br />
+    8:    Last name <%=text_field_tag :lastname, @user.lastname%><br/><br/>
+    9:    Email <%=text_field_tag :email, @user.email%><br />
+   10:    Image Url <%=text_field_tag :imageurl, @user.imageurl%><br />
+  
+app/views/users/edit.html.erb:7:in `block in _app_views_users_edit_html_erb___494142738_63138360'
+app/views/users/edit.html.erb:4:in `_app_views_users_edit_html_erb___494142738_63138360'
+Started GET "/widgets" for ::1 at 2020-04-16 01:11:24 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (21.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (11389.5ms)
+Completed 200 OK in 30176ms (Views: 18059.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-16 01:12:20 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (180.9ms)
+Completed 200 OK in 1658ms (Views: 685.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-16 01:12:24 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (339.8ms)
+Completed 500 Internal Server Error in 982ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `firstname' for nil:NilClass):
+    4: <%= form_tag user_path, :method => :put do %>
+    5:   <h1>Edit User Details</h1>
+    6:  <div class="container">
+    7:    First name <%=text_field_tag :firstname, @user.firstname%><br />
+    8:    Last name <%=text_field_tag :lastname, @user.lastname%><br/><br/>
+    9:    Email <%=text_field_tag :email, @user.email%><br />
+   10:    Image Url <%=text_field_tag :imageurl, @user.imageurl%><br />
+  
+app/views/users/edit.html.erb:7:in `block in _app_views_users_edit_html_erb___494142738_47327244'
+app/views/users/edit.html.erb:4:in `_app_views_users_edit_html_erb___494142738_47327244'
+Started GET "/" for ::1 at 2020-04-16 01:19:45 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (16.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1880.9ms)
+Completed 200 OK in 3475ms (Views: 2459.4ms)
+
+
+Started GET "/logout" for ::1 at 2020-04-16 01:20:05 +0100
+Processing by SessionsController#logout as HTML
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 10ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 01:20:06 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (233.9ms)
+Completed 200 OK in 920ms (Views: 698.2ms)
+
+
+Started POST "/login" for ::1 at 2020-04-16 01:20:09 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f9FroNZtbbeLfbaatAHeF0K9vHKn9fyBo9dYuCrsmZc4qjdRcfOgCTqeNImxVh7PIod9zoudDU+oq4k0+Vq4eA==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 1020ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 01:20:10 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1382.2ms)
+Completed 200 OK in 2442ms (Views: 1853.9ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-16 01:20:15 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (176.9ms)
+Completed 200 OK in 1478ms (Views: 643.3ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-16 01:20:21 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (362.8ms)
+Completed 500 Internal Server Error in 1433ms
+
+
+  
+ActionView::Template::Error (undefined method `firstname' for nil:NilClass):
+    4: <%= form_tag user_path, :method => :put do %>
+    5:   <h1>Edit User Details</h1>
+    6:  <div class="container">
+    7:    First name <%=text_field_tag :firstname, @user.firstname%><br />
+    8:    Last name <%=text_field_tag :lastname, @user.lastname%><br/><br/>
+    9:    Email <%=text_field_tag :email, @user.email%><br />
+   10:    Image Url <%=text_field_tag :imageurl, @user.imageurl%><br />
+  
+app/views/users/edit.html.erb:7:in `block in _app_views_users_edit_html_erb___494142738_100473756'
+app/views/users/edit.html.erb:4:in `_app_views_users_edit_html_erb___494142738_100473756'
+Started GET "/widgets" for ::1 at 2020-04-16 01:20:59 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1447.2ms)
+Completed 200 OK in 2488ms (Views: 1871.4ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-16 01:21:42 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (183.9ms)
+Completed 200 OK in 1179ms (Views: 653.1ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-16 01:21:46 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (163.9ms)
+Completed 200 OK in 1176ms (Views: 614.0ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-16 01:28:52 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (204.9ms)
+Completed 200 OK in 1406ms (Views: 777.0ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-16 01:32:19 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (276.8ms)
+Completed 200 OK in 1931ms (Views: 905.4ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-16 01:33:20 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (197.9ms)
+Completed 200 OK in 1288ms (Views: 732.8ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 01:33:58 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2FPDHcASVKbWnAP03gmwl+r4VvWlxZ7+86mWLl38VzOTf726sCXdBiLHbwCsm6XamshEGvXg285so2LlS8QkEg==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"13-07-1982", "imageurl"=>"", "id"=>"4102"}
+Redirected to http://localhost:3000/users
+Completed 302 Found in 482ms
+
+
+Started GET "/users" for ::1 at 2020-04-16 01:33:59 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (349.8ms)
+Completed 500 Internal Server Error in 1099ms
+
+
+  
+ActionView::Template::Error (undefined method `firstname' for nil:NilClass):
+     7:  <div class="container">
+     8: <p>
+     9:   <strong>Firstname:</strong>
+    10:   <%= @user.firstname %>
+    11: </p>
+    12: 
+    13: <p>
+  
+app/views/users/index.html.erb:10:in `_app_views_users_index_html_erb___801664423_46381188'
+Started GET "/users/4102" for ::1 at 2020-04-16 01:35:04 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (197.9ms)
+Completed 200 OK in 1364ms (Views: 721.6ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-16 01:35:21 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (158.9ms)
+Completed 200 OK in 1038ms (Views: 625.4ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-16 01:35:34 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (187.9ms)
+Completed 200 OK in 1099ms (Views: 650.4ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 01:35:53 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I8lKd7Mr19l3iUcib0+ciWg6QIwcdYCdb9+1sceNb9Ro5TTQwxxeeYPSK9Yd3YnEGApSY0xQxa3w1UF60bUc9Q==", "firstname"=>"Rahul", "lastname"=>"Ranaa", "dateofbirth"=>"25-10-1982", "imageurl"=>"", "id"=>"4102"}
+Redirected to http://localhost:3000/users
+Completed 302 Found in 344ms
+
+
+Started GET "/users" for ::1 at 2020-04-16 01:35:53 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (312.8ms)
+Completed 500 Internal Server Error in 896ms
+
+
+  
+ActionView::Template::Error (undefined method `firstname' for nil:NilClass):
+     7:  <div class="container">
+     8: <p>
+     9:   <strong>Firstname:</strong>
+    10:   <%= @user.firstname %>
+    11: </p>
+    12: 
+    13: <p>
+  
+app/views/users/index.html.erb:10:in `_app_views_users_index_html_erb___801664423_86687808'
+Started GET "/users/4102" for ::1 at 2020-04-16 01:36:18 +0100
+Processing by UsersController#show as HTML
+Started GET "/" for ::1 at 2020-04-16 01:36:28 +0100
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (248.9ms)
+Completed 200 OK in 18156ms (Views: 706.8ms)
+
+
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1423.2ms)
+Completed 200 OK in 2477ms (Views: 1930.1ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-16 01:36:56 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (150.9ms)
+Completed 200 OK in 1211ms (Views: 605.1ms)
+
+
+Started GET "/" for ::1 at 2020-04-16 01:42:31 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (7.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1386.2ms)
+Completed 200 OK in 2492ms (Views: 1877.4ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-16 01:42:40 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (163.9ms)
+Completed 200 OK in 1070ms (Views: 634.6ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-16 01:42:44 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (181.9ms)
+Completed 200 OK in 1254ms (Views: 740.6ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-16 01:43:50 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (173.9ms)
+Completed 200 OK in 1202ms (Views: 669.2ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 01:44:16 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pITOHafbYt2dGDz98CJwYSApSphkHzJ5elZesjWp1ffvqLC61+zrfWlDUAmCsGUsUBlYdzQ6d0nlXKp5I5Gm1g==", "firstname"=>"Rahul", "lastname"=>"Ranaa", "dateofbirth"=>"25-10-1982", "imageurl"=>"", "id"=>"4102"}
+Redirected to http://localhost:3000/users
+Completed 302 Found in 309ms
+
+
+Started GET "/users" for ::1 at 2020-04-16 01:44:17 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (151.9ms)
+Completed 200 OK in 1619ms (Views: 647.7ms)
+
+
+Started GET "/users" for ::1 at 2020-04-16 01:45:02 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (145.9ms)
+Completed 200 OK in 1253ms (Views: 665.1ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 01:45:31 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pITOHafbYt2dGDz98CJwYSApSphkHzJ5elZesjWp1ffvqLC61+zrfWlDUAmCsGUsUBlYdzQ6d0nlXKp5I5Gm1g==", "firstname"=>"Rahul", "lastname"=>"Ranaa", "dateofbirth"=>"25/10/1982", "imageurl"=>"", "id"=>"4102"}
+Redirected to http://localhost:3000/users
+Completed 302 Found in 296ms
+
+
+Started GET "/users" for ::1 at 2020-04-16 01:45:32 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (312.8ms)
+Completed 200 OK in 1236ms (Views: 755.6ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 01:45:40 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (8.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1376.2ms)
+Completed 200 OK in 2291ms (Views: 1821.2ms)
+
+
+Started GET "/logout" for ::1 at 2020-04-16 01:45:50 +0100
+Processing by SessionsController#logout as HTML
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 7ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 01:45:50 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (212.9ms)
+Completed 200 OK in 880ms (Views: 684.9ms)
+
+
+Started POST "/login" for ::1 at 2020-04-16 01:45:54 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9ZHFd49QY6nmi/iWh8ECDkHcXabUP7bjDN1Q3rtbnMmy6pmGKM6uF1doeoWClsLWIeacGvhXRy0HoYFSaO29Jg==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 826ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 01:45:55 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (7.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1349.2ms)
+Completed 200 OK in 2322ms (Views: 1839.9ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-16 01:46:05 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (226.9ms)
+Completed 200 OK in 1255ms (Views: 688.6ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-16 01:46:10 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (171.9ms)
+Completed 200 OK in 1057ms (Views: 613.0ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 01:46:29 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Mzz8PV0X9Y3MY7uLs1aZl68nZkMnaZK8/6yYzXTscmB4EIKaLSB8LTg413/BxIza3xd0rHdM14xgpmwGYtQBQQ==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"1982-10-25", "imageurl"=>"", "id"=>"4102"}
+Redirected to http://localhost:3000/users
+Completed 302 Found in 289ms
+
+
+Started GET "/users" for ::1 at 2020-04-16 01:46:30 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (167.9ms)
+Completed 200 OK in 1153ms (Views: 645.2ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 01:47:01 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Mzz8PV0X9Y3MY7uLs1aZl68nZkMnaZK8/6yYzXTscmB4EIKaLSB8LTg413/BxIza3xd0rHdM14xgpmwGYtQBQQ==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"1982/10/25", "imageurl"=>"", "id"=>"4102"}
+Redirected to http://localhost:3000/users
+Completed 302 Found in 323ms
+
+
+Started GET "/users" for ::1 at 2020-04-16 01:47:01 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (203.9ms)
+Completed 200 OK in 1329ms (Views: 646.8ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 01:47:22 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (8.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (19.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1508.1ms)
+Completed 200 OK in 2721ms (Views: 2060.3ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-16 01:49:04 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"beA7wrmMiXT4N94niXmY1c47uW4wH4OBEMHEuTdxeaU+5wxQ59IiUpU3+KGpzK/bMD/t+PfG1PRwtC1AVhQjaQ==", "searchkey"=>"dd"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/search.html.erb within layouts/application (2866.4ms)
+Completed 200 OK in 4263ms (Views: 3347.1ms)
+
+
+Started GET "/users/651" for ::1 at 2020-04-16 01:49:15 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"651"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (221.9ms)
+Completed 200 OK in 1421ms (Views: 894.2ms)
+
+
+Started GET "/users/651" for ::1 at 2020-04-16 01:51:35 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"651"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (327.8ms)
+Completed 200 OK in 1373ms (Views: 835.6ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 01:51:41 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (12.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1332.2ms)
+Completed 200 OK in 2300ms (Views: 1767.1ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-16 01:51:46 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (185.9ms)
+Completed 200 OK in 1131ms (Views: 651.0ms)
+
+
+Started GET "/" for ::1 at 2020-04-16 01:54:32 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1521.1ms)
+Completed 200 OK in 2787ms (Views: 1995.0ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-16 01:54:38 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (172.9ms)
+Completed 200 OK in 1227ms (Views: 639.3ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 01:54:45 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (28.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1379.2ms)
+Completed 200 OK in 2626ms (Views: 1901.1ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-16 01:54:58 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eVWsogK9R48Q5Jqc4iE2ZhhZdLXvySzQHAFR7SS6+04qUpswXOPsqX3kvBrClAFo5l0gIygQe6V8dLgURd+hgg==", "searchkey"=>"fi"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/search.html.erb within layouts/application (3654.9ms)
+Completed 200 OK in 4866ms (Views: 4136.0ms)
+
+
+Started GET "/users/398" for ::1 at 2020-04-16 01:55:07 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"398"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (220.9ms)
+Completed 200 OK in 1225ms (Views: 681.3ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 01:55:12 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (7.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1508.1ms)
+Completed 200 OK in 2506ms (Views: 1980.4ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 01:58:04 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (31.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1235.3ms)
+Completed 200 OK in 2391ms (Views: 1702.6ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 02:01:42 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (8.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (8.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1390.2ms)
+Completed 200 OK in 2557ms (Views: 1847.8ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 02:02:46 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1392.2ms)
+Completed 200 OK in 2663ms (Views: 1846.8ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 02:03:46 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1404.2ms)
+Completed 200 OK in 2805ms (Views: 1885.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 02:04:07 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1554.1ms)
+Completed 200 OK in 3017ms (Views: 1993.5ms)
+
+
+Started GET "/logout" for ::1 at 2020-04-16 02:05:37 +0100
+Processing by SessionsController#logout as HTML
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 17ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 02:05:38 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (255.9ms)
+Completed 200 OK in 973ms (Views: 716.2ms)
+
+
+Started POST "/login" for ::1 at 2020-04-16 02:05:41 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vwwF6A8ovjqoyVhoqfWp+4itYZDhe0iR1IQt2bhlOsz4d1kZqLZzhBkq2nusomkj6JegLM0TuV/f+PxVa9MbIw==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 843ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 02:05:43 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (10.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (7.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1415.2ms)
+Completed 200 OK in 2398ms (Views: 1867.0ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-16 02:06:01 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vUjJtdZvHyaZeBkd9opVj4fUWomtSrb1IUMEPjEIFo/uT/4niDG0APR4P5vWP2KBedAOH2qT4YBBNu3HUG1MQw==", "searchkey"=>"df"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/search.html.erb within layouts/application (2361.6ms)
+Completed 200 OK in 3741ms (Views: 2811.0ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-16 02:06:44 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vUjJtdZvHyaZeBkd9opVj4fUWomtSrb1IUMEPjEIFo/uT/4niDG0APR4P5vWP2KBedAOH2qT4YBBNu3HUG1MQw==", "searchkey"=>"df"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (8.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/search.html.erb within layouts/application (2340.7ms)
+Completed 200 OK in 3733ms (Views: 2860.6ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 02:06:55 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1301.3ms)
+Completed 200 OK in 2292ms (Views: 1804.6ms)
+
+
+Started GET "/change" for ::1 at 2020-04-16 02:07:28 +0100
+Processing by SessionsController#change as HTML
+  Rendering sessions/change.html.erb within layouts/application
+  Rendered sessions/change.html.erb within layouts/application (215.9ms)
+Completed 200 OK in 1287ms (Views: 724.2ms)
+
+
+Started GET "/change" for ::1 at 2020-04-16 02:14:17 +0100
+Processing by SessionsController#change as HTML
+  Rendering sessions/change.html.erb within layouts/application
+  Rendered sessions/change.html.erb within layouts/application (386.8ms)
+Completed 200 OK in 2124ms (Views: 1866.6ms)
+
+
+Started POST "/change" for ::1 at 2020-04-16 02:14:50 +0100
+Processing by SessionsController#changepassword as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6LPc0G2ZPBBbbGOBuYpi/2b49pGaaeL0D8ph15luXulKRdIsIh6j6tri9DnwYCrtdkZgk5sQhwCnb4HElOOfaw==", "email"=>"mr.rahulrana@gmail.com", "oldpassword"=>"[FILTERED]", "password"=>"[FILTERED]", "confirmnewpassword"=>"[FILTERED]"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2683ms (Views: 496.1ms)
+
+
+Started GET "/" for ::1 at 2020-04-16 02:15:18 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1201.3ms)
+Completed 200 OK in 2228ms (Views: 1625.0ms)
+
+
+Started GET "/logout" for ::1 at 2020-04-16 02:15:24 +0100
+Processing by SessionsController#logout as HTML
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 36ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 02:15:25 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (197.9ms)
+Completed 200 OK in 1049ms (Views: 647.3ms)
+
+
+Started POST "/login" for ::1 at 2020-04-16 02:15:40 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+hmy/DAt1syUdfd/QpjxLNIzJt4d4xNwfPDxDpsP8xq9Yu4Nl7MbciWWdWxHzzH0sgnnYjGL4r53jCCCSLnS9Q==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 1046ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 02:15:41 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1136.3ms)
+Completed 200 OK in 2077ms (Views: 1565.6ms)
+
+
+Started GET "/logout" for ::1 at 2020-04-16 02:15:47 +0100
+Processing by SessionsController#logout as HTML
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 10ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 02:15:47 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (143.9ms)
+Completed 200 OK in 761ms (Views: 549.8ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 02:15:51 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (3018.3ms)
+Completed 200 OK in 4077ms (Views: 3434.5ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-16 02:16:06 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vO8xcyJVSMj++o/2EtOGTSpKSuIE2fXYLCuwba9zOavv6AbhfAvj7pP6qXAyZrFD1E4edMMAoq1MXlmUzhZjZw==", "searchkey"=>"ff"}
+Redirected to http://localhost:3000/unauthorized
+Filter chain halted as :authorized rendered or redirected
+Completed 302 Found in 10ms
+
+
+Started GET "/unauthorized" for ::1 at 2020-04-16 02:16:07 +0100
+Processing by SessionsController#unauthorized as HTML
+  Rendering sessions/unauthorized.html.erb within layouts/application
+  Rendered sessions/unauthorized.html.erb within layouts/application (124.9ms)
+Completed 200 OK in 918ms (Views: 551.0ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-16 02:26:20 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vO8xcyJVSMj++o/2EtOGTSpKSuIE2fXYLCuwba9zOavv6AbhfAvj7pP6qXAyZrFD1E4edMMAoq1MXlmUzhZjZw==", "searchkey"=>"ff"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (6.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/search.html.erb within layouts/application (3564.0ms)
+Completed 200 OK in 4565ms (Views: 3987.8ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 02:26:53 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (3203.2ms)
+Completed 200 OK in 4257ms (Views: 3755.1ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 02:27:12 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (142.9ms)
+Completed 200 OK in 791ms (Views: 612.5ms)
+
+
+Started POST "/login" for ::1 at 2020-04-16 02:27:15 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TWNYs0oPQKpMafkvXP9l6l9hEqtlP8umP8thnwRhzNQKGARC7ZGNFP2KezxZqKUyP1vTF0lXOmg0t7AT19ftOw==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 720ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 02:27:16 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (76.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1279.3ms)
+Completed 200 OK in 2171ms (Views: 1681.5ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-16 02:27:23 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6S9w+gtXwSDE4nyWxojMZD+SJmI3wFrlmIW89WIKr5+6KEdoVQlqBqniWhDmPftqwZZy9PAZDZD48FUMA2/1Uw==", "searchkey"=>"ff"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (25.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/search.html.erb within layouts/application (3163.2ms)
+Completed 200 OK in 4023ms (Views: 3561.7ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 02:27:46 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (141.9ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1290.3ms)
+Completed 200 OK in 2245ms (Views: 1783.8ms)
+
+
+Started POST "/widgets/search" for ::1 at 2020-04-16 02:28:01 +0100
+Processing by WidgetsController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xe8GgLnPLycQkGD0H5aFslzH1CqyJvqmi6dNQdwU8d6W6DES55GEAX2QRnI/I7K8osOAvHX/rdPr0qS4vXGrEg==", "searchkey"=>"wizdev"}
+  Rendering widgets/search.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/search.html.erb within layouts/application (384.8ms)
+Completed 200 OK in 1368ms (Views: 854.7ms)
+
+
+Started GET "/logout" for ::1 at 2020-04-16 02:49:10 +0100
+Processing by SessionsController#logout as HTML
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 14ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 02:49:11 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (271.8ms)
+Completed 200 OK in 877ms (Views: 697.2ms)
+
+
+Started POST "/login" for ::1 at 2020-04-16 02:49:14 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nN0lAjNIwbrKTBQVHJi5BeZbk9mqnAKr2IKxMmjkxHjbpnnzlNYMBHuvlgYZz3ndhmFSZYb082XT/mC+u1Lllw==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 761ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 02:49:15 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1208.3ms)
+Completed 200 OK in 2142ms (Views: 1704.6ms)
+
+
+Started GET "/change" for ::1 at 2020-04-16 02:49:20 +0100
+Processing by SessionsController#change as HTML
+  Rendering sessions/change.html.erb within layouts/application
+  Rendered sessions/change.html.erb within layouts/application (211.9ms)
+Completed 200 OK in 862ms (Views: 664.2ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 02:49:31 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (8.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1260.3ms)
+Completed 200 OK in 2165ms (Views: 1738.9ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-16 02:49:35 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (163.9ms)
+Completed 200 OK in 1152ms (Views: 553.1ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-16 02:49:48 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (148.9ms)
+Completed 200 OK in 1018ms (Views: 545.3ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 02:50:18 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vHjVzmCpTWDbB4sOKpCPE52q36Ln26oSL3/IdyPAiYj3VKtpEJ7EwC9c5/pYAppe7ZrNTbf+7yKwdTy8Nfj6qQ==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"12/22/2011", "imageurl"=>"", "id"=>"4102"}
+Completed 500 Internal Server Error in 117ms
+
+
+  
+TypeError (no implicit conversion of Date into String):
+  
+app/controllers/users_controller.rb:103:in `+'
+app/controllers/users_controller.rb:103:in `update'
+Started PUT "/users/4102" for ::1 at 2020-04-16 02:52:23 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vHjVzmCpTWDbB4sOKpCPE52q36Ln26oSL3/IdyPAiYj3VKtpEJ7EwC9c5/pYAppe7ZrNTbf+7yKwdTy8Nfj6qQ==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"12/22/2011", "imageurl"=>"", "id"=>"4102"}
+Completed 500 Internal Server Error in 8ms
+
+
+  
+TypeError (no implicit conversion of Date into String):
+  
+app/controllers/users_controller.rb:104:in `+'
+app/controllers/users_controller.rb:104:in `update'
+Started PUT "/users/4102" for ::1 at 2020-04-16 02:53:21 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vHjVzmCpTWDbB4sOKpCPE52q36Ln26oSL3/IdyPAiYj3VKtpEJ7EwC9c5/pYAppe7ZrNTbf+7yKwdTy8Nfj6qQ==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"12/22/2011", "imageurl"=>"", "id"=>"4102"}
+Redirected to http://localhost:3000/users
+Completed 302 Found in 740ms
+
+
+Started GET "/users" for ::1 at 2020-04-16 02:53:23 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (223.9ms)
+Completed 200 OK in 1175ms (Views: 681.8ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 02:55:50 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vHjVzmCpTWDbB4sOKpCPE52q36Ln26oSL3/IdyPAiYj3VKtpEJ7EwC9c5/pYAppe7ZrNTbf+7yKwdTy8Nfj6qQ==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"12/22/2011", "imageurl"=>"", "id"=>"4102"}
+Completed 500 Internal Server Error in 9ms
+
+
+  
+ArgumentError (invalid date):
+  
+app/controllers/users_controller.rb:104:in `strptime'
+app/controllers/users_controller.rb:104:in `update'
+Started PUT "/users/4102" for ::1 at 2020-04-16 02:58:11 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vHjVzmCpTWDbB4sOKpCPE52q36Ln26oSL3/IdyPAiYj3VKtpEJ7EwC9c5/pYAppe7ZrNTbf+7yKwdTy8Nfj6qQ==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"12/22/2011", "imageurl"=>"", "id"=>"4102"}
+  Rendering text template
+  Rendered text template (1.0ms)
+Completed 200 OK in 9ms (Views: 5.7ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 02:59:40 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vHjVzmCpTWDbB4sOKpCPE52q36Ln26oSL3/IdyPAiYj3VKtpEJ7EwC9c5/pYAppe7ZrNTbf+7yKwdTy8Nfj6qQ==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"12/22/2011", "imageurl"=>"", "id"=>"4102"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 9ms (Views: 4.9ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 03:00:31 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vHjVzmCpTWDbB4sOKpCPE52q36Ln26oSL3/IdyPAiYj3VKtpEJ7EwC9c5/pYAppe7ZrNTbf+7yKwdTy8Nfj6qQ==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"12/22/2011", "imageurl"=>"", "id"=>"4102"}
+Completed 500 Internal Server Error in 7ms
+
+
+  
+ArgumentError (invalid date):
+  
+app/controllers/users_controller.rb:99:in `strptime'
+app/controllers/users_controller.rb:99:in `update'
+Started PUT "/users/4102" for ::1 at 2020-04-16 03:06:46 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vHjVzmCpTWDbB4sOKpCPE52q36Ln26oSL3/IdyPAiYj3VKtpEJ7EwC9c5/pYAppe7ZrNTbf+7yKwdTy8Nfj6qQ==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"12-22-2011", "imageurl"=>"", "id"=>"4102"}
+Completed 500 Internal Server Error in 7ms
+
+
+  
+ArgumentError (invalid date):
+  
+app/controllers/users_controller.rb:99:in `strptime'
+app/controllers/users_controller.rb:99:in `update'
+Started PUT "/users/4102" for ::1 at 2020-04-16 03:07:40 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vHjVzmCpTWDbB4sOKpCPE52q36Ln26oSL3/IdyPAiYj3VKtpEJ7EwC9c5/pYAppe7ZrNTbf+7yKwdTy8Nfj6qQ==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"12-22-2011", "imageurl"=>"", "id"=>"4102"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 53ms (Views: 48.4ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 03:08:41 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vHjVzmCpTWDbB4sOKpCPE52q36Ln26oSL3/IdyPAiYj3VKtpEJ7EwC9c5/pYAppe7ZrNTbf+7yKwdTy8Nfj6qQ==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"12-22-2011", "imageurl"=>"", "id"=>"4102"}
+Completed 500 Internal Server Error in 94ms
+
+
+  
+ArgumentError (comparison of String with 0 failed):
+  
+app/controllers/users_controller.rb:99:in `<'
+app/controllers/users_controller.rb:99:in `new'
+app/controllers/users_controller.rb:99:in `update'
+Started GET "/users/4102" for ::1 at 2020-04-16 03:09:22 +0100
+Started PUT "/users/4102" for ::1 at 2020-04-16 03:09:34 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (146.9ms)
+Completed 200 OK in 987ms (Views: 576.9ms)
+
+
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vHjVzmCpTWDbB4sOKpCPE52q36Ln26oSL3/IdyPAiYj3VKtpEJ7EwC9c5/pYAppe7ZrNTbf+7yKwdTy8Nfj6qQ==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"12-22-2011", "imageurl"=>"", "id"=>"4102"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 11ms (Views: 7.3ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 03:11:14 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vHjVzmCpTWDbB4sOKpCPE52q36Ln26oSL3/IdyPAiYj3VKtpEJ7EwC9c5/pYAppe7ZrNTbf+7yKwdTy8Nfj6qQ==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"25-12-1982", "imageurl"=>"", "id"=>"4102"}
+Redirected to http://localhost:3000/users
+Completed 302 Found in 321ms
+
+
+Started GET "/users" for ::1 at 2020-04-16 03:11:15 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (134.9ms)
+Completed 200 OK in 901ms (Views: 539.0ms)
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 03:11:23 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (8.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1268.3ms)
+Completed 200 OK in 2151ms (Views: 1699.0ms)
+
+
+Started GET "/users/4102" for ::1 at 2020-04-16 03:11:28 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (138.9ms)
+Completed 200 OK in 1242ms (Views: 659.5ms)
+
+
+Started GET "/users/4102/edit" for ::1 at 2020-04-16 03:11:31 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4102"}
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/edit.html.erb within layouts/application (310.8ms)
+Completed 200 OK in 1244ms (Views: 736.4ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 03:11:43 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nBBaMpyAe3x8ubqafvuX91mZUkkiICTte5ar13FwEAXXPCSV7Lfy3Iji1m4MaYK6KalApnIFYd3knF8cZ0hjJA==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"25/12/1982", "imageurl"=>"", "id"=>"4102"}
+Redirected to http://localhost:3000/users
+Completed 302 Found in 270ms
+
+
+Started GET "/users" for ::1 at 2020-04-16 03:11:44 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (140.9ms)
+Completed 200 OK in 929ms (Views: 541.3ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 03:12:01 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nBBaMpyAe3x8ubqafvuX91mZUkkiICTte5ar13FwEAXXPCSV7Lfy3Iji1m4MaYK6KalApnIFYd3knF8cZ0hjJA==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"1982/10/25", "imageurl"=>"", "id"=>"4102"}
+Redirected to http://localhost:3000/users
+Completed 302 Found in 279ms
+
+
+Started GET "/users" for ::1 at 2020-04-16 03:12:01 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (147.9ms)
+Completed 200 OK in 890ms (Views: 526.2ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 03:12:15 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nBBaMpyAe3x8ubqafvuX91mZUkkiICTte5ar13FwEAXXPCSV7Lfy3Iji1m4MaYK6KalApnIFYd3knF8cZ0hjJA==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"1982-10-25", "imageurl"=>"", "id"=>"4102"}
+Redirected to http://localhost:3000/users
+Completed 302 Found in 347ms
+
+
+Started GET "/users" for ::1 at 2020-04-16 03:12:15 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (149.9ms)
+Completed 200 OK in 929ms (Views: 565.9ms)
+
+
+Started PUT "/users/4102" for ::1 at 2020-04-16 03:12:36 +0100
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nBBaMpyAe3x8ubqafvuX91mZUkkiICTte5ar13FwEAXXPCSV7Lfy3Iji1m4MaYK6KalApnIFYd3knF8cZ0hjJA==", "firstname"=>"Rahul", "lastname"=>"Rana", "dateofbirth"=>"1982-25-12", "imageurl"=>"", "id"=>"4102"}
+Redirected to http://localhost:3000/users
+Completed 302 Found in 296ms
+
+
+Started GET "/users" for ::1 at 2020-04-16 03:12:36 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (136.9ms)
+Completed 200 OK in 929ms (Views: 519.5ms)
+
+
+Started GET "/" for ::1 at 2020-04-16 03:27:29 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (8.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1312.2ms)
+Completed 200 OK in 2305ms (Views: 1749.9ms)
+
+
+Started GET "/logout" for ::1 at 2020-04-16 03:27:35 +0100
+Processing by SessionsController#logout as HTML
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 8ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 03:27:35 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (140.9ms)
+Completed 200 OK in 723ms (Views: 547.8ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-16 03:27:39 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (3365.1ms)
+  Rendered users/new.html.erb within layouts/application (3983.7ms)
+Completed 200 OK in 4592ms (Views: 4414.3ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-16 03:31:21 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (242.9ms)
+  Rendered users/new.html.erb within layouts/application (567.7ms)
+Completed 500 Internal Server Error in 1204ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"check", :controller=>"users"}, missing required keys: [:email]):
+    36:     <%= form.password_field :password_confirmed, id: :user_password_confirmed %>
+    37:   </div>
+    38:   <p id="notice" style="color: red;"><%= notice %></p>
+    39:   <%= link_to 'Check email availibility?', check_path %>
+    40:   <div class="field">
+    41:     <%= form.label :email %>
+    42:     <%= form.text_field :email, id: :user_email %>
+  
+app/views/users/_form.html.erb:39:in `block in _app_views_users__form_html_erb___1871054_110080488'
+app/views/users/_form.html.erb:3:in `_app_views_users__form_html_erb___1871054_110080488'
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb___801028930_94719648'
+Started GET "/users/new" for ::1 at 2020-04-16 03:33:34 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (52.0ms)
+  Rendered users/new.html.erb within layouts/application (348.8ms)
+Completed 200 OK in 977ms (Views: 768.3ms)
+
+
+Started GET "/check" for ::1 at 2020-04-16 03:33:41 +0100
+Processing by UsersController#check as HTML
+Completed 500 Internal Server Error in 4ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/users_controller.rb:140:in `+'
+app/controllers/users_controller.rb:140:in `check'
+Started GET "/check" for ::1 at 2020-04-16 03:35:09 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/check"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/new" for ::1 at 2020-04-16 03:36:01 +0100
+Started GET "/" for ::1 at 2020-04-16 03:36:05 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (35.0ms)
+  Rendered users/new.html.erb within layouts/application (293.8ms)
+Completed 200 OK in 868ms (Views: 692.6ms)
+
+
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+Started GET "/" for ::1 at 2020-04-16 03:36:09 +0100
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+Processing by WidgetsController#index as HTML
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/index.html.erb within layouts/application (3931.7ms)
+Completed 200 OK in 4911ms (Views: 4395.9ms)
+
+
+  Rendered widgets/_widgetitem.html.erb (4.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (0.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (5.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (2.0ms)
+  Rendered widgets/index.html.erb within layouts/application (4286.7ms)
+Completed 200 OK in 6215ms (Views: 4940.4ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 03:36:21 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (279.8ms)
+Completed 200 OK in 1151ms (Views: 965.4ms)
+
+
+Started GET "/users/new" for ::1 at 2020-04-16 03:36:26 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (31.0ms)
+  Rendered users/new.html.erb within layouts/application (320.8ms)
+Completed 200 OK in 952ms (Views: 782.3ms)
+
+
+Started GET "/check" for ::1 at 2020-04-16 03:36:32 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/check"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.4) lib/puma/configuration.rb:227:in `call'
+puma (3.12.4) lib/puma/server.rb:675:in `handle_request'
+puma (3.12.4) lib/puma/server.rb:476:in `process_client'
+puma (3.12.4) lib/puma/server.rb:334:in `block in run'
+puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/new" for ::1 at 2020-04-16 03:40:16 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (3830.8ms)
+  Rendered users/new.html.erb within layouts/application (4130.6ms)
+Completed 500 Internal Server Error in 4741ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `check_path' for #<#<Class:0xbd4a700>:0xbd49410>
+Did you mean?  change_path):
+    36:     <%= form.password_field :password_confirmed, id: :user_password_confirmed %>
+    37:   </div>
+    38:   <!--<p id="notice" style="color: red;"><%= notice %></p>
+    39:   <%= link_to 'Check email availibility?', check_path %>-->
+    40:   <div class="field">
+    41:     <%= form.label :email %>
+    42:     <%= form.text_field :email, id: :user_email %>
+  
+app/views/users/_form.html.erb:39:in `block in _app_views_users__form_html_erb___1871054_98508108'
+app/views/users/_form.html.erb:3:in `_app_views_users__form_html_erb___1871054_98508108'
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb___801028930_99243552'
+Started GET "/users/new" for ::1 at 2020-04-16 03:41:12 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (27.0ms)
+  Rendered users/new.html.erb within layouts/application (356.8ms)
+Completed 200 OK in 902ms (Views: 749.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 03:41:17 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (532.7ms)
+Completed 200 OK in 1124ms (Views: 951.1ms)
+
+
+Started POST "/login" for ::1 at 2020-04-16 03:41:22 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KLnrIFF1N3iViDaVQQ+zH+0jLCgW/woPt2k5EXC7thVvwrfR9uv6xiRrtIZEWHPHjRntlDqX+8G8Feidow2X+g==", "username"=>"mr.rahulrana@gmail.com", "password"=>"[FILTERED]", "remember"=>"on"}
+Redirected to http://localhost:3000/widgets
+Completed 302 Found in 696ms
+
+
+Started GET "/widgets" for ::1 at 2020-04-16 03:41:24 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/_widgetitem.html.erb (11.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (1.0ms)
+  Rendered widgets/_widgetitem.html.erb (3.0ms)
+  Rendered widgets/index.html.erb within layouts/application (1212.3ms)
+Completed 200 OK in 2047ms (Views: 1611.8ms)
+
+
+Started GET "/logout" for ::1 at 2020-04-16 03:41:32 +0100
+Processing by SessionsController#logout as HTML
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 10ms
+
+
+Started GET "/sessions/new" for ::1 at 2020-04-16 03:41:32 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (173.9ms)
+Completed 200 OK in 734ms (Views: 593.2ms)
+
+

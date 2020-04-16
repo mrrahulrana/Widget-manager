@@ -10,8 +10,6 @@ Rails.application.routes.draw do
 
   get '/delete/:id', to: 'widgets#delete', as: :delete
 
-  get 'sessions/welcome', to: 'sessions#welcome', as: :welcome
-
   post 'widgets/search', to: 'widgets#search', as: :search
 
   get '/logout', to: 'sessions#logout', as: :logout

@@ -163,26 +163,7 @@ def changepassword
     end
   end
 
-  def check_email
-    #check email valid or not
-  emailavailable="false"
-  userresponse = RestClient::Request.new({
-    method: :get,
-    url: ENV['API_URL'] + 'users/email?email='+ params[:email] +'&client_id='+ ENV['CLIENT_ID'] + '&client_secret=' + ENV['CLIENT_SECRET'],
-    headers: { content_type: 'application/json'}
-  }).execute do |userresponse, request, result|
-    case userresponse.code
-    when 400
-      [ :error, JSON.parse(userresponse) ]
-    when 200
-      [ :success, JSON.parse(userresponse) ]
-      userjson=JSON.parse(userresponse)
-      emailavailable=userjson["data"]["available"]
-    else
-      fail "Invalid response #{userresponse.to_str} received."
-    end
-  end
-  end
+  
 
   def clear_session
     session[:access_token] = ""

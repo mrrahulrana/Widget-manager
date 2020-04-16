@@ -12,6 +12,7 @@
     <b><%= session[:username] %></b>
     <%= link_to 'Logout', logout_path %>
     <%= link_to 'Change Password', change_path %>
+    <%= link_to 'Profile', user_path(session[:userid]) %>
   <%end%>
   </div>
 </div>
@@ -27,6 +28,7 @@
       <%if logged_in? %>
       <span style="float: right;"><button><%= link_to 'Create Widget', new_widget_path %></button></span>
       <%end%>
+      <span style="float: right;"><button><%= link_to 'Clear search result', widgets_path %></button></span>
       <% end %>
   </div>
 

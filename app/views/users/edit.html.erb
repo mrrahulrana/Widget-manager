@@ -5,8 +5,8 @@
   <h1>Edit User Details</h1>
  <div class="container">
    First name <%=text_field_tag :firstname, @user.firstname%><br />
-   Last name <%=text_field_tag :lastname, @user.lastname%><br/><br/>
-   Email <%=text_field_tag :email, @user.email%><br />
+   Last name <%=text_field_tag :lastname, @user.lastname%><br/>
+   Date of Birth(yyyy-mm-dd) <%=text_field_tag :dateofbirth, @user.dateofbirth%><br/>
    Image Url <%=text_field_tag :imageurl, @user.imageurl%><br />
    <div class="clearfix">
       <button type="button" class="registerPageBtn cancelbtn"><%= link_to 'Cancel', user_path %></button>

@@ -6,29 +6,34 @@
 <p id="notice"><%= notice %></p>
  <div class="container">
 <p>
-  <strong>Firstname:</strong>
+  <strong>First name:</strong>
   <%= @user.firstname %>
 </p>
 
 <p>
-  <strong>Lastname:</strong>
+  <strong>Last name:</strong>
   <%= @user.lastname %>
 </p>
 
+<%if @user.email.present? %>
 <p>
   <strong>Email:</strong>
   <%= @user.email %>
 </p>
+<%end%>
 
+<%if @user.imageurl.present? %>
 <p>
   <strong>Imageurl:</strong>
   <%= @user.imageurl %>
 </p>
+<%end%>
 </div>
 <div class="clearfix">
-      <button type="button" class="registerPageBtn signupbtn"><%= link_to 'Back', widgets_path %></button>
-      
-      <!--<button type="submit" class="registerPageBtn signupbtn"><%= link_to 'Edit', edit_user_path(@user.id) %></button>-->
+      <button type="button" class="registerPageBtn cancelbtn"><%= link_to 'Back', widgets_path %></button>
+      <%if session[:userid].to_s == @user.id.to_s %>
+      <button type="submit" class="registerPageBtn signupbtn"><%= link_to 'Edit', edit_user_path(session[:userid]) %></button>
+      <%end%>
     </div>
 </form>
 </div>

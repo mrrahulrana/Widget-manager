@@ -3,8 +3,10 @@
     <div class="">
     	<span><label><b><%= widget.kind %></b></label></span>
         <span style="float: right;">
+        <%if session[:userid].to_s == widget.userid.to_s %>
     	  <button><%= link_to 'Edit', edit_widget_path(widget.id) %></button>
         <button><%= link_to 'Delete', delete_path(widget.id) %></button>
+        <%end%>
         </span>
     </div>
     <div class="description">
