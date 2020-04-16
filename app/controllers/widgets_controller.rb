@@ -180,8 +180,7 @@ class WidgetsController < ApplicationController
     end
   end
 
-  # DELETE /widgets/1
-  # DELETE /widgets/1.json
+  # DELETE widget
   def delete
     resultmessage='Fail'
     response = RestClient::Request.new({

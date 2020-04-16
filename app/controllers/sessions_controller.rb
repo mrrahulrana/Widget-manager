@@ -163,7 +163,6 @@ def changepassword
     end
   end
 
-  
 
   def clear_session
     session[:access_token] = ""
